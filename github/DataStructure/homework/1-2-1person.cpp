@@ -1,3 +1,10 @@
+/*
+ * @Descripttion: MyCode
+ * @Author: CGPan
+ * @Date: 2022-09-13 12:26:38
+ * @LastEditors: CGPan
+ * @LastEditTime: 2022-09-26 22:07:41
+ */
 #include <iostream>
 
 using namespace std;
@@ -17,7 +24,7 @@ int main()
     //p->name = nullptr;
     //cin >> p->name;
     char* name = new char[20];
-    cin >> name;
+    cin >> *name;
     scanf("%s",name);
     cin >> p->age >> p->Weight;
     cout << name << endl;
