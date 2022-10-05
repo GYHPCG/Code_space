@@ -116,8 +116,27 @@ void SortList(Node* L) {
  }
  //将一个链表链表L分为两个单链表，一个存放所有的非负整数，
  //另一个存放所有的负整数。要求利用原来的结点，不分配新的结点空间，头结点除外。
- void SplictList(Node* L) {
-
+ void SplictList(Node* L, Node* getPosi, Node* getNag) {
+        //对原L分成两个链表,getPosi放非负,getNag放负数
+        //
+        Node* head = L->Next;
+        Node* ppos = getPosi;
+        Node* pnav = getNag;
+        if (head ==  nullptr) return;
+        while(head) {
+            if (head->Data >= 0) {
+                ppos->Next = head;
+                ppos = ppos->Next;
+            }
+            else {
+                pnav->Next = head;
+                pnav = pnav->Next;
+            }
+            head = head->Next;
+        }
+        //一定要使后面指向空，否则还会和其他节点相连，导致结果异常
+        ppos->Next = nullptr;
+        pnav->Next = nullptr;
  }
 void deleteAllList(Node* L) {
     Node* head = L;
@@ -133,19 +152,24 @@ void deleteAllList(Node* L) {
 int main()
 {
     Node* L = creatHead();
+    Node* getPo = creatHead();
+    Node* getNag = creatHead();
     int x = 0;
     //输入10个整数
     for(int i = 0; i < 10; ++i) {
         cin >> x;
         addlist(L,x);
     }
-    cout << Length(L)<<endl;
-    print(L);
+    //cout << Length(L)<<endl;
+   // print(L);
     // insert(L,1,9);
     // deleSameVlaue(L);
-    SortList(L);
-    print(L);
-    deleteAllList(L);
+    //SortList(L);
+    SplictList(L,getPo,getNag);
+    //print(L);
+    print(getPo);
+    print(getNag);
+    //deleteAllList(L);
     return 0;
 
 }

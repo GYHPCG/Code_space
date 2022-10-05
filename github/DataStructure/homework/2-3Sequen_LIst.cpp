@@ -7,6 +7,8 @@ using namespace std;
 //本题所要求按照意思建立一个邻接表
 struct Goods {
     char goodType;
+    //goodSum同一个供应商添加同一种次数
+    //unsigned int goodSum;
     struct Goods* Next;
 };
 /// @brief 
@@ -26,22 +28,30 @@ void InitList(Thing& L) {
     L.Capacity = Maxsize;
     L.length = 0;
 }
-void addGoods(Supplier& Ls, char type) {
-   Goods* obj = (Goods*)malloc(sizeof(Goods));
-   Supplier& lsh = Ls;
-   obj->goodType = type;
-   obj->Next = nullptr;
+void addGoods(Supplier* Ls, char type) {
+
+   Supplier* lsh = Ls;
+   Goods* obj = new Goods;
+   
+   
    //如果还是空表的话
-   if (lsh.good == nullptr) {
-    lsh.good = obj;
+   if (lsh->good == nullptr) {
+       lsh->good = obj;
+       obj->goodType = type;
+    //obj->goodSum = 1;
+       obj->Next = nullptr;
+       return;
    }
    //找到结尾
-   else {
-     while(lsh.good->Next!= nullptr) {
-        lsh.good = lsh.good->Next;
+   Goods* pg = lsh->good;
+    while(pg->Next) {
+        pg = pg->Next;
      }
-   lsh.good->Next = obj;
-   }
+    pg->Next = obj;
+    obj->goodType = type;
+   //obj->goodSum = 1;
+    obj->Next = nullptr;
+    return;
     
 }
 bool addSupplier(Thing& Lt, string name) {
@@ -52,6 +62,8 @@ bool addSupplier(Thing& Lt, string name) {
             return false;
         }
     }
+    // Supplier* sp = new Supplier();
+    // sp->Name = name;
     if ( i == Lt.length) {
         Lt.supplier[i].Name = name;
         Lt.supplier[i].good = nullptr;
@@ -70,6 +82,7 @@ void print(Thing& Lt) {
             g = g->Next;
         }
     }
+    cout << endl;
 }
 int countAllGoods(Thing& Lt) {
     Thing L = Lt;
@@ -81,6 +94,7 @@ int countAllGoods(Thing& Lt) {
         good1 = L.supplier[i].good;
         while(good1!= nullptr) {
             ty.insert(good1->goodType);
+            //++count;
             good1 = good1->Next;
         }
     }
@@ -111,17 +125,24 @@ int main()
     Thing p;
     InitList(p);
     //initList正确
-    int i = 0;
-    cout << "第i个供应商: " ;
+    //int i = 0;
+    //cout << "第i个供应商: " ;
     //可选择添加供应商，并赋予每个供应商名字
     bool res1 = addSupplier(p,"zhangsan");//true
     bool rs2 = addSupplier(p,"lisi");//true
-    bool rs3 = addSupplier(p,"lisi");//false
+    bool rs3 = addSupplier(p,"li");//false
+    addSupplier(p,"wanger");
     //在第0个和第一个供应商上添加商品a b,b. 只要供应商人数在20个内，商品可以无限添加
-    addGoods(p.supplier[0],'a');
-    addGoods(p.supplier[0],'b');
-    addGoods(p.supplier[1],'b');
+    addGoods(&p.supplier[0],'f');
+    addGoods(&p.supplier[0],'a');
+    addGoods(&p.supplier[0],'k');
+    addGoods(&p.supplier[0],'y');
+    addGoods(&p.supplier[0],'y');
+    addGoods(&p.supplier[2],'p');
+    addGoods(&p.supplier[1],'t');
+    addGoods(&p.supplier[3],'n');
     //打出添加进去的所有商品，不是商品种类，商品种类用set去重一下就行
+    cout << p.length << endl;
     print(p);
     // cout << endl;
     // cout << res1 << " " << rs2 << " "<< rs3 << endl;

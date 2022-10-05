@@ -10,6 +10,7 @@
         "regex": "cpp",
         "new": "cpp",
         "chrono": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "string": "cpp"
     }
 }
