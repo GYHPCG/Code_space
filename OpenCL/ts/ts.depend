@@ -1,0 +1,126 @@
+# depslib dependency file v1.0
+1660271689 source:c:\users\huawei\downloads\ts\main.c
+	<stdio.h>
+	<stdlib.h>
+	<CL/cl.h>
+
+1579690210 c:\program files (x86)\intelswtools\system_studio_2020\opencl\sdk\include\cl\opencl.h
+	<CL/cl.h>
+	<CL/cl_gl.h>
+	<CL/cl_gl_ext.h>
+	<CL/cl_ext.h>
+
+1579690210 c:\program files (x86)\intelswtools\system_studio_2020\opencl\sdk\include\cl\cl.h
+	<CL/cl_version.h>
+	<CL/cl_platform.h>
+
+1579690210 c:\program files (x86)\intelswtools\system_studio_2020\opencl\sdk\include\cl\cl_version.h
+
+1579690210 c:\program files (x86)\intelswtools\system_studio_2020\opencl\sdk\include\cl\cl_platform.h
+	<CL/cl_version.h>
+	<stdint.h>
+	<stddef.h>
+	<altivec.h>
+	<intrin.h>
+	<xmmintrin.h>
+	<intrin.h>
+	<emmintrin.h>
+	<mmintrin.h>
+	<intrin.h>
+	<immintrin.h>
+
+1579690210 c:\program files (x86)\intelswtools\system_studio_2020\opencl\sdk\include\cl\cl_gl.h
+	<CL/cl.h>
+
+1579690210 c:\program files (x86)\intelswtools\system_studio_2020\opencl\sdk\include\cl\cl_gl_ext.h
+	<CL/cl_gl.h>
+
+1579690210 c:\program files (x86)\intelswtools\system_studio_2020\opencl\sdk\include\cl\cl_ext.h
+	<CL/cl.h>
+
+1438729320 d:\ocl_sdk_light\include\cl\opencl.h
+	<OpenCL/cl.h>
+	<OpenCL/cl_gl.h>
+	<OpenCL/cl_gl_ext.h>
+	<OpenCL/cl_ext.h>
+	<CL/cl.h>
+	<CL/cl_gl.h>
+	<CL/cl_gl_ext.h>
+	<CL/cl_ext.h>
+
+1438729314 d:\ocl_sdk_light\include\cl\cl.h
+	<OpenCL/cl_platform.h>
+	<CL/cl_platform.h>
+
+1438729320 d:\ocl_sdk_light\include\cl\cl_platform.h
+	<AvailabilityMacros.h>
+	<stdint.h>
+	<stddef.h>
+	<altivec.h>
+	<intrin.h>
+	<xmmintrin.h>
+	<intrin.h>
+	<emmintrin.h>
+	<mmintrin.h>
+	<intrin.h>
+	<immintrin.h>
+
+1438729320 d:\ocl_sdk_light\include\cl\cl_gl.h
+	<OpenCL/cl.h>
+	<CL/cl.h>
+
+1438729320 d:\ocl_sdk_light\include\cl\cl_gl_ext.h
+	<OpenCL/cl_gl.h>
+	<CL/cl_gl.h>
+
+1438729316 d:\ocl_sdk_light\include\cl\cl_ext.h
+	<OpenCL/cl.h>
+	<AvailabilityMacros.h>
+	<CL/cl.h>
+
+1668860522 source:d:\code_space\opencl\ts\main.c
+	<stdio.h>
+	<stdlib.h>
+	<CL/opencl.h>
+	<time.h>
+
+1438729314 d:\study\opencl\ocl_sdk_light\include\cl\cl.h
+	<OpenCL/cl_platform.h>
+	<CL/cl_platform.h>
+
+1438729320 d:\study\opencl\ocl_sdk_light\include\cl\cl_platform.h
+	<AvailabilityMacros.h>
+	<stdint.h>
+	<stddef.h>
+	<altivec.h>
+	<intrin.h>
+	<xmmintrin.h>
+	<intrin.h>
+	<emmintrin.h>
+	<mmintrin.h>
+	<intrin.h>
+	<immintrin.h>
+
+1438729320 d:\study\opencl\ocl_sdk_light\include\cl\opencl.h
+	<OpenCL/cl.h>
+	<OpenCL/cl_gl.h>
+	<OpenCL/cl_gl_ext.h>
+	<OpenCL/cl_ext.h>
+	<CL/cl.h>
+	<CL/cl_gl.h>
+	<CL/cl_gl_ext.h>
+	<CL/cl_ext.h>
+
+1438729320 d:\study\opencl\ocl_sdk_light\include\cl\cl_gl.h
+	<OpenCL/cl.h>
+	<CL/cl.h>
+
+1438729320 d:\study\opencl\ocl_sdk_light\include\cl\cl_gl_ext.h
+	<OpenCL/cl_gl.h>
+	<CL/cl_gl.h>
+
+1438729316 d:\study\opencl\ocl_sdk_light\include\cl\cl_ext.h
+	<OpenCL/cl.h>
+	<AvailabilityMacros.h>
+	<CL/cl.h>
+

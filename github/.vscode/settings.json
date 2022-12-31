@@ -11,6 +11,8 @@
         "new": "cpp",
         "chrono": "cpp",
         "variant": "cpp",
-        "string": "cpp"
-    }
+        "string": "cpp",
+        "ostream": "cpp"
+    },
+    "cmake.sourceDirectory": "${workspaceFolder}/CodeWars"
 }

@@ -1,0 +1,6 @@
+﻿  Test4.cpp
+D:\Code_space\OpenCL\Test4\Test4\Test4.cpp(16,20): warning C4018: “<”: 有符号/无符号不匹配
+Test4.obj : error LNK2019: 无法解析的外部符号 _clGetPlatformIDs@12，函数 _main 中引用了该符号
+Test4.obj : error LNK2019: 无法解析的外部符号 _clGetPlatformInfo@20，函数 _main 中引用了该符号
+D:\study\openCL\OCL_SDK_Light\lib\x86_64\opencl.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\Code_space\OpenCL\Test5\Debug\Test5.exe : fatal error LNK1120: 2 个无法解析的外部命令

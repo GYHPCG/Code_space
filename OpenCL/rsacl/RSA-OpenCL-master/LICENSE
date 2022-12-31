@@ -1,0 +1,63 @@
+The MIT License (MIT)
+
+Copyright (c) 2015 Carter McCardwell
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+NOTICE REQUIRED FOR USE OF SOME THIRD-PARTY-CODE LOCATED IN kernel_rsa.cl and CasRSA_CL.c
+/*	bignum.c
+	Implementation of large integer arithmetic: addition, subtraction,
+ multiplication, and division.
+ 
+	begun: February 7, 2002
+	by: Steven Skiena
+ */
+
+/*
+ Copyright 2003 by Steven S. Skiena; all rights reserved.
+ 
+ Permission is granted for use in non-commerical applications
+ provided this copyright notice remains intact and unchanged.
+ 
+ This program appears in my book:
+ 
+ "Programming Challenges: The Programming Contest Training Manual"
+ by Steven Skiena and Miguel Revilla, Springer-Verlag, New York 2003.
+ 
+ See our website www.programming-challenges.com for additional information.
+ 
+ This book can be ordered from Amazon.com at
+ 
+ http://www.amazon.com/exec/obidos/ASIN/0387001638/thealgorithmrepo/
+ 
+ This code was modified and integrated by Carter McCardwell of Northeastern University NUCAR 2015
+ for the project CasRSA_CL
+ MODIFICATIONS:
+    - Removed recursion
+    - Rewrote sections to be compatible with OpenCL
+    - Allow initialization of bignum using cstrings
+    - Added modulus operator
+    - Added pow operator
+    - Fixed a few bugs when porting to GPU
+    - Addition of function bignum_fme_modpow which implements
+      a version of FME mod optimizations to the library for NUCAR testing
+      purposes.
+ 
+ */

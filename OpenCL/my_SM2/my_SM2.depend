@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1671434870 source:d:\code_space\opencl\my_sm2\ecc.c
+	"ECC.h"
+	"stdlib.h"
+	<string.h>
+
+1671434918 d:\code_space\opencl\my_sm2\ecc.h
+	<stdint.h>
+
+1671458943 source:d:\code_space\opencl\my_sm2\sm2.c
+	"SM2.h"
+	"sys.h"
+	"time.h"
+
+1671459972 d:\code_space\opencl\my_sm2\sm2.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"SM3.h"
+	"ECC.h"
+
+1671434981 d:\code_space\opencl\my_sm2\sm3.h
+	<string.h>
+
+1671434786 source:d:\code_space\opencl\my_sm2\sm3.c
+	"SM3.h"
+	<stdio.h>
+	<string.h>
+
+1671435453 source:d:\code_space\opencl\my_sm2\main.cpp
+	<stdio.h>
+	<string.h>
+	"SM2.h"
+	"SM3.h"
+	"ECC.h"
+	"delay.h"
+	"usart.h"
+
+1671457068 source:d:\code_space\opencl\my_sm2\main.c
+	<stdio.h>
+	<string.h>
+	"SM2.h"
+	"SM3.h"
+	"ECC.h"
+	"delay.h"
+	"usart.h"
+
