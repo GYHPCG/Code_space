@@ -1,10 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CasRSA_CL",
     "\\CasRSA_CL\\CasRSA_CL",
-    "\\CasRSA_CL\\CasRSA_CL\\x64"
+    "\\CasRSA_CL\\CasRSA_CL\\x64",
+    "\\sha1",
+    "\\sha1\\sha1"
   ],
-  "SelectedNode": "\\CasRSA_CL\\CasRSA_CL\\CasRSA_CL.cpp",
+  "SelectedNode": "\\sha1\\sha1\\main.cpp",
   "PreviewInSolutionExplorer": false
 }

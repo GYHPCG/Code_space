@@ -1,9 +1,13 @@
-
+/*
 #include "D:\Code_space\OpenCL\bcrypt\inc_vendor.cl"
 #include "D:\Code_space\OpenCL\bcrypt\inc_hash_constants.h"
 #include "D:\Code_space\OpenCL\bcrypt\inc_hash_functions.cl"
 #include "D:\Code_space\OpenCL\bcrypt/inc_types.cl"
-
+*/
+#include "./inc_vendor.cl"
+#include "./inc_hash_constants.h"
+#include "./inc_hash_functions.cl"
+#include "./inc_types.cl"
 __constant u32a c_sbox0[256] =
 {
     0xd1310ba6, 0x98dfb5ac, 0x2ffd72db, 0xd01adfb7,

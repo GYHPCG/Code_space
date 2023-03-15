@@ -1,0 +1,13 @@
+# ninja log v5
+0	405	6984425805725906	CMakeFiles/demo.dir/modern_cpp/demo.cpp.obj	742e32535c302b6
+1	1864	6984428394170269	CMakeFiles/hello.dir/cmakeTest/hello.cpp.obj	bcac43aa2147f98b
+409	626	6984425807911478	demo.exe	61c6da0022978330
+1869	2163	6984428397112950	hello.exe	d3bfb9374d23d856
+0	446	6984428745686545	CMakeFiles/helloWorld.dir/cmakeTest/helloWorld.cpp.obj	efa0341d91b7dcb2
+448	690	6984428748095932	helloWorld.exe	de52e12a42b7f583
+7	2154	6998187616895437	CMakeFiles/helloWorld.dir/cmakeTest/helloWorld.cpp.obj	efa0341d91b7dcb2
+2155	2891	6998187624220615	helloWorld.exe	de52e12a42b7f583
+5	474	6998188074696646	CMakeFiles/helloWorld.dir/cmakeTest/helloWorld.cpp.obj	efa0341d91b7dcb2
+478	759	6998188077503970	helloWorld.exe	de52e12a42b7f583
+11	2962	7000387437608465	CMakeFiles/hello.dir/cmakeTest/hello.cpp.obj	bcac43aa2147f98b
+2963	3667	7000387444635019	hello.exe	d3bfb9374d23d856

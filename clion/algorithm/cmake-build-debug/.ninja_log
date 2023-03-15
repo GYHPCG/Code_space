@@ -1,0 +1,4 @@
+# ninja log v5
+1	311	7002048961436785	build.ninja	3dca59a61dc9073a
+0	438	7002048966297357	CMakeFiles/algorithm.dir/leetcode/string_to_int.cpp.obj	def73b245fa58465
+445	696	7002048968839221	algorithm.exe	16aa70081b51f823
