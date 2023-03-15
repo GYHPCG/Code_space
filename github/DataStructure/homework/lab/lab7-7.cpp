@@ -3,7 +3,7 @@
  * @Author: CGPan
  * @Date: 2022-11-29 11:52:21
  * @LastEditors: CGPan
- * @LastEditTime: 2022-11-29 12:19:18
+ * @LastEditTime: 2023-03-10 21:07:39
  */
 #include <iostream>
 #include <queue>
@@ -13,7 +13,6 @@ struct TreeNode {
     TreeNode* left;
     TreeNode* right;
 }*BinaryTree;
-
 void creatBiTree(TreeNode* &root) {
     
     int c;
@@ -53,13 +52,14 @@ int getWPL(TreeNode* root)
         }
         return result;
 }
-void destoryTree(TreeNode* root) {
+int destoryTree(TreeNode* root) {
     if (root == nullptr) {
-        return;
+        return 0;
     }
-    destoryTree(root->left);
-    destoryTree(root->right);
+    int l = destoryTree(root->left);
+    int r = destoryTree(root->right);
     delete root;
+    return 1 + l + r;
 }
 int main()
 {
@@ -67,7 +67,7 @@ int main()
     cout << "-1表示空\n";
     creatBiTree(root);
     cout << "WPL: " << getWPL(root) << endl; 
-    destoryTree(root);
+    cout << destoryTree(root);
     return 0;
 
 }
