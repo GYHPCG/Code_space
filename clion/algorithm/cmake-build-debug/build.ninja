@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: algorithm
+# Project: clion/algorithm
 # Configurations: Debug
 # =============================================================================
 
@@ -106,6 +106,303 @@ build string_to_int.exe: CXX_EXECUTABLE_LINKER__string_to_int_Debug CMakeFiles/s
   TARGET_IMPLIB = libstring_to_int.dll.a
   TARGET_PDB = string_to_int.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ACWing1
+
+
+#############################################
+# Order-only phony target for ACWing1
+
+build cmake_object_order_depends_target_ACWing1: phony || CMakeFiles/ACWing1.dir
+
+build CMakeFiles/ACWing1.dir/leetcode/ACWing1.cpp.obj: CXX_COMPILER__ACWing1_Debug D$:/Code_space/clion/algorithm/leetcode/ACWing1.cpp || cmake_object_order_depends_target_ACWing1
+  DEP_FILE = CMakeFiles\ACWing1.dir\leetcode\ACWing1.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\ACWing1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ACWing1.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ACWing1
+
+
+#############################################
+# Link the executable ACWing1.exe
+
+build ACWing1.exe: CXX_EXECUTABLE_LINKER__ACWing1_Debug CMakeFiles/ACWing1.dir/leetcode/ACWing1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ACWing1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ACWing1.exe
+  TARGET_IMPLIB = libACWing1.dll.a
+  TARGET_PDB = ACWing1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ACWing
+
+
+#############################################
+# Order-only phony target for ACWing
+
+build cmake_object_order_depends_target_ACWing: phony || CMakeFiles/ACWing.dir
+
+build CMakeFiles/ACWing.dir/leetcode/ACWing.cpp.obj: CXX_COMPILER__ACWing_Debug D$:/Code_space/clion/algorithm/leetcode/ACWing.cpp || cmake_object_order_depends_target_ACWing
+  DEP_FILE = CMakeFiles\ACWing.dir\leetcode\ACWing.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\ACWing.dir
+  OBJECT_FILE_DIR = CMakeFiles\ACWing.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ACWing
+
+
+#############################################
+# Link the executable ACWing.exe
+
+build ACWing.exe: CXX_EXECUTABLE_LINKER__ACWing_Debug CMakeFiles/ACWing.dir/leetcode/ACWing.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ACWing.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ACWing.exe
+  TARGET_IMPLIB = libACWing.dll.a
+  TARGET_PDB = ACWing.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ACWing2
+
+
+#############################################
+# Order-only phony target for ACWing2
+
+build cmake_object_order_depends_target_ACWing2: phony || CMakeFiles/ACWing2.dir
+
+build CMakeFiles/ACWing2.dir/leetcode/ACWing2.cpp.obj: CXX_COMPILER__ACWing2_Debug D$:/Code_space/clion/algorithm/leetcode/ACWing2.cpp || cmake_object_order_depends_target_ACWing2
+  DEP_FILE = CMakeFiles\ACWing2.dir\leetcode\ACWing2.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\ACWing2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ACWing2.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ACWing2
+
+
+#############################################
+# Link the executable ACWing2.exe
+
+build ACWing2.exe: CXX_EXECUTABLE_LINKER__ACWing2_Debug CMakeFiles/ACWing2.dir/leetcode/ACWing2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ACWing2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ACWing2.exe
+  TARGET_IMPLIB = libACWing2.dll.a
+  TARGET_PDB = ACWing2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ACWing3
+
+
+#############################################
+# Order-only phony target for ACWing3
+
+build cmake_object_order_depends_target_ACWing3: phony || CMakeFiles/ACWing3.dir
+
+build CMakeFiles/ACWing3.dir/leetcode/ACWing3.cpp.obj: CXX_COMPILER__ACWing3_Debug D$:/Code_space/clion/algorithm/leetcode/ACWing3.cpp || cmake_object_order_depends_target_ACWing3
+  DEP_FILE = CMakeFiles\ACWing3.dir\leetcode\ACWing3.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\ACWing3.dir
+  OBJECT_FILE_DIR = CMakeFiles\ACWing3.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ACWing3
+
+
+#############################################
+# Link the executable ACWing3.exe
+
+build ACWing3.exe: CXX_EXECUTABLE_LINKER__ACWing3_Debug CMakeFiles/ACWing3.dir/leetcode/ACWing3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ACWing3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ACWing3.exe
+  TARGET_IMPLIB = libACWing3.dll.a
+  TARGET_PDB = ACWing3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ACWing4
+
+
+#############################################
+# Order-only phony target for ACWing4
+
+build cmake_object_order_depends_target_ACWing4: phony || CMakeFiles/ACWing4.dir
+
+build CMakeFiles/ACWing4.dir/leetcode/ACWing4.cpp.obj: CXX_COMPILER__ACWing4_Debug D$:/Code_space/clion/algorithm/leetcode/ACWing4.cpp || cmake_object_order_depends_target_ACWing4
+  DEP_FILE = CMakeFiles\ACWing4.dir\leetcode\ACWing4.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\ACWing4.dir
+  OBJECT_FILE_DIR = CMakeFiles\ACWing4.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ACWing4
+
+
+#############################################
+# Link the executable ACWing4.exe
+
+build ACWing4.exe: CXX_EXECUTABLE_LINKER__ACWing4_Debug CMakeFiles/ACWing4.dir/leetcode/ACWing4.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ACWing4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ACWing4.exe
+  TARGET_IMPLIB = libACWing4.dll.a
+  TARGET_PDB = ACWing4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ACWing5
+
+
+#############################################
+# Order-only phony target for ACWing5
+
+build cmake_object_order_depends_target_ACWing5: phony || CMakeFiles/ACWing5.dir
+
+build CMakeFiles/ACWing5.dir/leetcode/ACWing5.cpp.obj: CXX_COMPILER__ACWing5_Debug D$:/Code_space/clion/algorithm/leetcode/ACWing5.cpp || cmake_object_order_depends_target_ACWing5
+  DEP_FILE = CMakeFiles\ACWing5.dir\leetcode\ACWing5.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\ACWing5.dir
+  OBJECT_FILE_DIR = CMakeFiles\ACWing5.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ACWing5
+
+
+#############################################
+# Link the executable ACWing5.exe
+
+build ACWing5.exe: CXX_EXECUTABLE_LINKER__ACWing5_Debug CMakeFiles/ACWing5.dir/leetcode/ACWing5.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ACWing5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ACWing5.exe
+  TARGET_IMPLIB = libACWing5.dll.a
+  TARGET_PDB = ACWing5.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ACWing6
+
+
+#############################################
+# Order-only phony target for ACWing6
+
+build cmake_object_order_depends_target_ACWing6: phony || CMakeFiles/ACWing6.dir
+
+build CMakeFiles/ACWing6.dir/leetcode/ACWing6.cpp.obj: CXX_COMPILER__ACWing6_Debug D$:/Code_space/clion/algorithm/leetcode/ACWing6.cpp || cmake_object_order_depends_target_ACWing6
+  DEP_FILE = CMakeFiles\ACWing6.dir\leetcode\ACWing6.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\ACWing6.dir
+  OBJECT_FILE_DIR = CMakeFiles\ACWing6.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ACWing6
+
+
+#############################################
+# Link the executable ACWing6.exe
+
+build ACWing6.exe: CXX_EXECUTABLE_LINKER__ACWing6_Debug CMakeFiles/ACWing6.dir/leetcode/ACWing6.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ACWing6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ACWing6.exe
+  TARGET_IMPLIB = libACWing6.dll.a
+  TARGET_PDB = ACWing6.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Test
+
+
+#############################################
+# Order-only phony target for Test
+
+build cmake_object_order_depends_target_Test: phony || CMakeFiles/Test.dir
+
+build CMakeFiles/Test.dir/leetcode/Test.cpp.obj: CXX_COMPILER__Test_Debug D$:/Code_space/clion/algorithm/leetcode/Test.cpp || cmake_object_order_depends_target_Test
+  DEP_FILE = CMakeFiles\Test.dir\leetcode\Test.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Test.dir
+  OBJECT_FILE_DIR = CMakeFiles\Test.dir\leetcode
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Test
+
+
+#############################################
+# Link the executable Test.exe
+
+build Test.exe: CXX_EXECUTABLE_LINKER__Test_Debug CMakeFiles/Test.dir/leetcode/Test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Test.exe
+  TARGET_IMPLIB = libTest.dll.a
+  TARGET_PDB = Test.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target process1
+
+
+#############################################
+# Order-only phony target for process1
+
+build cmake_object_order_depends_target_process1: phony || CMakeFiles/process1.dir
+
+build CMakeFiles/process1.dir/os2022/process1.cpp.obj: CXX_COMPILER__process1_Debug D$:/Code_space/clion/algorithm/os2022/process1.cpp || cmake_object_order_depends_target_process1
+  DEP_FILE = CMakeFiles\process1.dir\os2022\process1.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\process1.dir
+  OBJECT_FILE_DIR = CMakeFiles\process1.dir\os2022
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target process1
+
+
+#############################################
+# Link the executable process1.exe
+
+build process1.exe: CXX_EXECUTABLE_LINKER__process1_Debug CMakeFiles/process1.dir/os2022/process1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\process1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = process1.exe
+  TARGET_IMPLIB = libprocess1.dll.a
+  TARGET_PDB = process1.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -132,7 +429,25 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build ACWing: phony ACWing.exe
+
+build ACWing1: phony ACWing1.exe
+
+build ACWing2: phony ACWing2.exe
+
+build ACWing3: phony ACWing3.exe
+
+build ACWing4: phony ACWing4.exe
+
+build ACWing5: phony ACWing5.exe
+
+build ACWing6: phony ACWing6.exe
+
+build Test: phony Test.exe
+
 build algorithm: phony algorithm.exe
+
+build process1: phony process1.exe
 
 build string_to_int: phony string_to_int.exe
 
@@ -144,7 +459,7 @@ build string_to_int: phony string_to_int.exe
 #############################################
 # Folder: D:/Code_space/clion/algorithm/cmake-build-debug
 
-build all: phony algorithm.exe string_to_int.exe
+build all: phony algorithm.exe string_to_int.exe ACWing1.exe ACWing.exe ACWing2.exe ACWing3.exe ACWing4.exe ACWing5.exe ACWing6.exe Test.exe process1.exe
 
 # =============================================================================
 # Built-in targets

@@ -113,7 +113,7 @@ CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/algorithm
 CMAKE_LINKER:FILEPATH=D:/codeSoft/clion/CLion 2022.1.3/bin/mingw/bin/ld.exe
 
 //make program
-CMAKE_MAKE_PROGRAM:FILEPATH=D:/codeSoft/clion/CLION2~1.3/bin/ninja/win/ninja.exe
+CMAKE_MAKE_PROGRAM:FILEPATH=D:/codeSoft/clion/CLion 2022.1.3/bin/ninja/win/ninja.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -151,7 +151,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=algorithm
+CMAKE_PROJECT_NAME:STATIC=clion/algorithm
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=D:/codeSoft/clion/CLion 2022.1.3/bin/mingw/bin/ranlib.exe
@@ -241,6 +241,15 @@ algorithm_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 algorithm_SOURCE_DIR:STATIC=D:/Code_space/clion/algorithm
+
+//Value Computed by CMake
+clion/algorithm_BINARY_DIR:STATIC=D:/Code_space/clion/algorithm/cmake-build-debug
+
+//Value Computed by CMake
+clion/algorithm_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+clion/algorithm_SOURCE_DIR:STATIC=D:/Code_space/clion/algorithm
 
 
 ########################

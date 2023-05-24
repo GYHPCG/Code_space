@@ -1,0 +1,150 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "clion/algorithm",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ACWing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ACWing-Debug-9d590fe08cfec0dbbf8b.json",
+					"name" : "ACWing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ACWing1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ACWing1-Debug-896bbebcf811ac3e7f5e.json",
+					"name" : "ACWing1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ACWing2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ACWing2-Debug-782e78ac609d9d7ee443.json",
+					"name" : "ACWing2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ACWing3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ACWing3-Debug-f11f18e0e630854cc052.json",
+					"name" : "ACWing3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ACWing4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ACWing4-Debug-6886396afc11c56d3a35.json",
+					"name" : "ACWing4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ACWing5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ACWing5-Debug-d64ab9dfb45f34444548.json",
+					"name" : "ACWing5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ACWing6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ACWing6-Debug-ea53c7e352bc839cfdfd.json",
+					"name" : "ACWing6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Test-Debug-2c53ad00df6f06d6918c.json",
+					"name" : "Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm-Debug-b79aa7220a320e445ece.json",
+					"name" : "algorithm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "process1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-process1-Debug-4a10630646418df87623.json",
+					"name" : "process1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "string_to_int::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-string_to_int-Debug-dd8ea19c94e661dbb105.json",
+					"name" : "string_to_int",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Code_space/clion/algorithm/cmake-build-debug",
+		"source" : "D:/Code_space/clion/algorithm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
