@@ -1,6 +1,6 @@
 # ninja log v5
 0	438	7002048966297357	CMakeFiles/algorithm.dir/leetcode/string_to_int.cpp.obj	def73b245fa58465
-0	295	7053476723017896	build.ninja	3dca59a61dc9073a
+0	295	7070520015810408	build.ninja	3dca59a61dc9073a
 445	696	7002048968839221	algorithm.exe	16aa70081b51f823
 4	426	7007633654537295	CMakeFiles/ACWing1.dir/leetcode/ACWing1.cpp.obj	d8270989cf90c7e3
 4	390	7008425015637213	CMakeFiles/ACWing.dir/leetcode/ACWing.cpp.obj	852444f1c4cba5e7
@@ -18,3 +18,11 @@
 372	560	7022994846469864	Test.exe	eab6dfaa492b59ef
 1	839	7053478056306887	CMakeFiles/process1.dir/os2022/process1.cpp.obj	508c5e5e3e872c8d
 840	1369	7053478061577487	process1.exe	f017f6bf92cd8538
+1	119	7070521230637876	CMakeFiles/test.dir/leetcode/test.c.obj	6ad3f4ad6551b812
+120	343	7070521232838397	test.exe	921a9f31e42ee37d
+1	111	7070521751963272	CMakeFiles/test.dir/leetcode/test.c.obj	6ad3f4ad6551b812
+112	299	7070521753816025	test.exe	921a9f31e42ee37d
+2	117	7070523068535755	CMakeFiles/test.dir/leetcode/test.c.obj	6ad3f4ad6551b812
+118	304	7070523070374826	test.exe	921a9f31e42ee37d
+2	111	7070523203998360	CMakeFiles/test.dir/leetcode/test.c.obj	6ad3f4ad6551b812
+113	300	7070523205851384	test.exe	921a9f31e42ee37d
