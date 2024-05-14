@@ -1,69 +1,222 @@
-'''
-Descripttion: my code for learning
-Author: chenggong Pan
-Date: 2023-11-09 21:15:26
-LastEditors: chenggong Pan
-LastEditTime: 2023-12-03 12:44:53
-'''
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_squared_error
-from math import sqrt
 
-# 加载数据
-data = pd.read_csv('your_data.csv')
+from turtle import *
+from math import *
 
+def ty_c(x, y, sita, a, b, p, q, c):
+    fillcolor(c)
+    si = 2 * pi / 100
+    penup()
+    goto(x + a * cos(sita), y + a * sin(sita))
+    pendown()
+    t = 0
+    for i in range(201):
+        if i * si + sita <= p:
+            penup()
+            goto(x + a * cos(i * si) * cos(sita) - b * sin(i * si) * sin(sita) \
+                 , y + a * cos(i * si) * sin(sita) + b * sin(i * si) * cos(sita))
+            pendown()
+        elif p <= i * si + sita <= q + 2 * pi / 100:
+            if t == 0:
+                begin_fill()
+                t = 1
+            goto(x + a * cos(i * si) * cos(sita) - b * sin(i * si) * sin(sita) \
+                 , y + a * cos(i * si) * sin(sita) + b * sin(i * si) * cos(sita))
+    end_fill()
 
-# 选择特征和目标变量
-X = data[['feature1', 'feature2', 'feature3']]  # 选择作为特征的列
-y = data['target']  # 目标变量
-
-# 划分数据集
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-# 构建随机森林模型
-model = RandomForestRegressor(n_estimators=100, random_state=42)
-
-# 训练模型
-model.fit(X_train, y_train)
-
-
-# 预测测试集
-predictions = model.predict(X_test)
-
-# 计算均方根误差（RMSE）
-rmse = sqrt(mean_squared_error(y_test, predictions))
-print(f"模型的均方根误差（RMSE）: {rmse}")
-
-# 分析并可视化各特征对模型的贡献度。
-import matplotlib.pyplot as plt
-
-# 获取特征重要性
-importances = model.feature_importances_
-
-# 将特征重要性以条形图展示
-indices = range(len(importances))
-plt.title('特征重要性')
-plt.bar(indices, importances, color='b', align='center')
-plt.xticks(indices, X.columns)
-plt.ylabel('重要性')
-plt.show()
-
-# 为了进一步提高模型的性能，你可以使用网格搜索进行参数调优
-from sklearn.model_selection import GridSearchCV
-
-# 定义参数网格
-param_grid = {
-    'n_estimators': [100, 200, 300],
-    'max_features': ['auto', 'sqrt'],
-    'max_depth': [10, 20, 30]
-}
+def ty(x, y, sita, a, b, p, q):
+    si = 2 * pi / 100
+    penup()
+    goto(x + a * cos(sita), y + a * sin(sita))
+    pendown()
+    for i in range(201):
+        if i * si + sita < p:
+            penup()
+            goto(x + a * cos(i * si) * cos(sita) - b * sin(i * si) * sin(sita) \
+                 , y + a * cos(i * si) * sin(sita) + b * sin(i * si) * cos(sita))
+            pendown()
+        elif p <= i * si + sita <= q + 2 * pi / 100:
+            goto(x + a * cos(i * si) * cos(sita) - b * sin(i * si) * sin(sita) \
+                 , y + a * cos(i * si) * sin(sita) + b * sin(i * si) * cos(sita))
 
 
-# 网格搜索
-grid_search = GridSearchCV(estimator=model, param_grid=param_grid, cv=3, n_jobs=-1, verbose=2)
-grid_search.fit(X_train, y_train)
+speed(0)
 
-# 打印最佳参数
-print(f"最佳参数: {grid_search.best_params_}")
+hideturtle()
+pensize(10)
+pencolor('black')
+ty_c(350, -267, 0, 161, 161, 0, 2 * pi, '#ff9900')
+ty(350, -267 + 161 + 50, 0, 161, 161, 7 * pi / 6 + pi / 12, 11 * pi / 6 - pi / 12)
+ty(350, -267 - 161 - 50, 0, 161, 161, pi / 6 + pi / 12, 5 * pi / 6 - pi / 12)
+ty(350, -267 + 161 + 330, 0, 500, 500, 8.5 * pi / 6, 9.5 * pi / 6)
+pensize(20)
+ty_c(0, 0, 0, 657 / 2, 576 / 2, 0, 2 * pi, '#ffcc00')
+pensize(22)
+ty_c(55, 52, 0, 106, 104, 0, 2 * pi, 'white')
+ty_c(-165, 60, 0, 101, 99, 0, 2 * pi, 'white')
+pensize(20)
+ty_c(4, 79, 0, 14, 14, 0, 2 * pi, 'black')
+ty_c(-201, 80, 0, 14, 14, 0, 2 * pi, 'black')
+pensize(12)
+ty_c(-66, -76, 0, 102, 62, 0, 2 * pi, '#ff6600')
+penup()
+goto(-155, -50)
+pendown()
+goto(-134, -64)
+goto(-115, -74)
+goto(-90, -82)
+goto(-67, -86)
+goto(-47, -85)
+goto(-25, -82)
+goto(0, -77)
+goto(15, -66)
+goto(25, -55)
+
+pensize(1)
+pencolor('red')
+ty_c(-256, -90, 15 * pi / 180, 49, 66, 0, 2 * pi + 15 * pi / 180, 'red')
+ty_c(201, -105, 0, 73, 75, 0, 2 * pi, 'red')
+
+color('black', 'black')
+pensize(10)
+penup()
+goto(-275, -227)
+pendown()
+begin_fill()
+goto(-241, -209)
+goto(-189, -233)
+goto(-166, -260)
+goto(-127, -272)
+goto(-88, -252)
+goto(-49, -233)
+goto(-19, -227)
+goto(51, -237)
+goto(108, -242)
+goto(168, -242)
+goto(210, -233)
+goto(250, -206)
+goto(252, -254)
+goto(216, -269)
+goto(-13, -353)
+goto(-65, -362)
+goto(-109, -356)
+goto(-178, -317)
+goto(-214, -296)
+goto(-246, -266)
+goto(-272, -245)
+goto(-275, -227)
+end_fill()
+# 衣服
+penup()
+goto(-244, -287)
+pendown()
+begin_fill()
+goto(-269, -314)
+goto(-310, -405)
+goto(-304, -410)
+goto(-21, -416)
+goto(317, -410)
+goto(331, -398)
+goto(323, -381)
+goto(319, -356)
+goto(315, -320)
+goto(275, -266)
+goto(263, -257)
+pensize(15)
+pencolor('#c0c0c0')
+
+goto(252, -254)
+goto(216, -269)
+goto(-13, -353)
+pensize(13)
+goto(-65, -362)
+goto(-109, -356)
+pensize(10)
+goto(-178, -317)
+goto(-214, -296)
+goto(-246, -284)
+end_fill()
+
+penup()
+goto(-206, -310)
+pendown()
+pensize(30)
+goto(-183, -363)
+goto(-180, -384)
+goto(-184, -414)
+
+penup()
+goto(229, -285)
+pendown()
+goto(203, -360)
+pensize(34)
+goto(190, -415)
+
+penup()
+goto(-115, -360)
+pendown()
+pensize(8)
+goto(-96, -411)
+goto(-75, -413)
+goto(18, -371)
+goto(69, -341)
+goto(105, -325)
+pensize(12)
+goto(177, -297)
+
+pencolor('#808080')
+pensize(1)
+penup()
+goto(67, 393)
+pendown()
+fillcolor('#808080')
+begin_fill()
+goto(43, +419)
+goto(13, +431)
+goto(-96, +426)
+goto(-156, +402)
+goto(-239, +336)
+goto(-277, +300)
+goto(-307, +263)
+goto(-372, +153)
+goto(-383, +101)
+goto(-373, +57)
+goto(-339, +38)
+goto(-298, +40)
+goto(-278, +61)
+goto(-236, +74)
+goto(-176, +103)
+goto(-163, +128)
+goto(-135, +224)
+goto(-95, +265)
+goto(-64, +271)
+goto(-30, +253)
+goto(22, +269)
+goto(61, 268)
+goto(75, 202)
+goto(93, 132)
+goto(108, 71)
+goto(136, 31)
+goto(171, 4)
+goto(236, -10)
+goto(277, -10)
+goto(323, -25)
+goto(363, -61)
+goto(404, -35)
+goto(423, 14)
+goto(453, 71)
+goto(457, 120)
+goto(441, 170)
+goto(398, 227)
+goto(331, 285)
+goto(283, 323)
+goto(232, 360)
+goto(168, 396)
+goto(122, 416)
+goto(87, 406)
+goto(67, 393)
+end_fill()
+pencolor('black')
+pensize(4)
+goto(-30, +253)
+
+done()
