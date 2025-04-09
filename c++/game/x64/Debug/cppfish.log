@@ -1,0 +1,1616 @@
+﻿  bullet.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\gold.h(10,17): error C4596: “setX”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\gold.h(11,17): error C4596: “setY”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\bullet.h(17,25): error C4596: “createGold”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\bullet.h(18,19): error C4596: “setX”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\bullet.h(19,19): error C4596: “setY”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\bullet.h(20,23): error C4596: “inScreen”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\bullet.cpp(12,19): error C2664: “void OutputDebugStringA(LPCSTR)”: 无法将参数 1 从“LPWSTR”转换为“LPCSTR”
+D:\Code_space\c++\game\frame\bullet.cpp(12,20): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\debugapi.h(54,1): message : 参见“OutputDebugStringA”的声明
+D:\Code_space\c++\game\frame\bullet.cpp(12,19): message : 尝试匹配参数列表“(LPWSTR)”时
+D:\Code_space\c++\game\frame\bullet.cpp(12,19): message : “OutputDebugStringA”: 函数声明必须可用，因为所有参数都不依赖于模板参数
+D:\Code_space\c++\game\frame\bullet.cpp(34,33): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\bullet.cpp(35,34): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\bullet.cpp(88,8): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\frame\bullet.cpp(99,36): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\Code_space\c++\game\frame\bullet.cpp(114,7): warning C4804: “%”: 在操作中使用类型“bool”不安全
+  files.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\files.h(8,19): error C4596: “close”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\files.h(9,22): error C4596: “readFile”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\files.h(10,18): error C4596: “size”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\files.h(11,23): error C4596: “writeFile”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\files.h(12,19): error C4596: “empty”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\files.cpp(15,16): error C2664: “HANDLE CreateFileA(LPCSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)”: 无法将参数 1 从“LPWSTR”转换为“LPCSTR”
+D:\Code_space\c++\game\frame\files.cpp(15,27): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\fileapi.h(79,1): message : 参见“CreateFileA”的声明
+D:\Code_space\c++\game\frame\files.cpp(15,16): message : 尝试匹配参数列表“(LPWSTR, unsigned long, int, int, int, int, int)”时
+D:\Code_space\c++\game\frame\files.cpp(17,3): error C2664: “int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)”: 无法将参数 2 从“const wchar_t [3]”转换为“LPCSTR”
+D:\Code_space\c++\game\frame\files.cpp(17,20): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(9153,1): message : 参见“MessageBoxA”的声明
+D:\Code_space\c++\game\frame\files.cpp(17,3): message : 尝试匹配参数列表“(int, const wchar_t [3], const wchar_t [4], long)”时
+D:\Code_space\c++\game\frame\files.cpp(29,3): error C2664: “int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)”: 无法将参数 2 从“const wchar_t [3]”转换为“LPCSTR”
+D:\Code_space\c++\game\frame\files.cpp(29,20): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(9153,1): message : 参见“MessageBoxA”的声明
+D:\Code_space\c++\game\frame\files.cpp(29,3): message : 尝试匹配参数列表“(int, const wchar_t [3], const wchar_t [4], long)”时
+D:\Code_space\c++\game\frame\files.cpp(51,28): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\frame\files.cpp(52,11): warning C4018: “<”: 有符号/无符号不匹配
+  fish.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\fishConfig.h(12,26): error C4596: “setType”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\fish.cpp(67,47): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+  fishConfig.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\fishConfig.h(12,26): error C4596: “setType”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\fishConfig.cpp(87,31): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\fishConfig.cpp(92,31): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\fishConfig.cpp(96,23): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\fishConfig.cpp(100,23): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\fishConfig.cpp(195,20): warning C4244: “初始化”: 从“float”转换到“unsigned int”，可能丢失数据
+D:\Code_space\c++\game\frame\fishConfig.cpp(196,20): warning C4244: “初始化”: 从“float”转换到“unsigned int”，可能丢失数据
+D:\Code_space\c++\game\frame\fishConfig.cpp(215,21): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\fishConfig.cpp(216,22): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  frame0.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\frame0.cpp(11,25): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Code_space\c++\game\frame\frame0.cpp(26,26): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame0.cpp(26,26): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [26]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame0.cpp(26,39): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame0.cpp(26,26): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [26]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame0.cpp(26,39): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame0.cpp(26,26): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame0.cpp(26,35): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame0.cpp(26,26): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [26])”时
+D:\Code_space\c++\game\frame\frame0.cpp(27,17): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame0.cpp(28,18): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame0.cpp(30,26): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame0.cpp(30,26): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [24]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame0.cpp(30,40): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame0.cpp(30,26): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [24]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame0.cpp(30,40): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame0.cpp(30,26): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame0.cpp(30,35): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame0.cpp(30,26): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [24])”时
+D:\Code_space\c++\game\frame\frame0.cpp(33,26): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame0.cpp(33,26): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [23]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame0.cpp(33,40): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame0.cpp(33,26): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [23]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame0.cpp(33,40): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame0.cpp(33,26): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame0.cpp(33,35): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame0.cpp(33,26): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [23])”时
+  frame1.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\bullet.h(17,25): error C4596: “createGold”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\bullet.h(18,19): error C4596: “setX”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\bullet.h(19,19): error C4596: “setY”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\bullet.h(20,23): error C4596: “inScreen”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\fishConfig.h(12,26): error C4596: “setType”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\gold.h(10,17): error C4596: “setX”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\gold.h(11,17): error C4596: “setY”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\files.h(8,19): error C4596: “close”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\files.h(9,22): error C4596: “readFile”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\files.h(10,18): error C4596: “size”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\files.h(11,23): error C4596: “writeFile”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\files.h(12,19): error C4596: “empty”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\frame1.cpp(57,3): error C2664: “int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)”: 无法将参数 2 从“const wchar_t [4]”转换为“LPCSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(57,20): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(9153,1): message : 参见“MessageBoxA”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(57,3): message : 尝试匹配参数列表“(int, const wchar_t [4], const wchar_t [4], long)”时
+D:\Code_space\c++\game\frame\frame1.cpp(67,36): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(67,36): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [22]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(67,42): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(67,36): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [22]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(67,42): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(67,36): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(67,37): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(67,36): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [22])”时
+D:\Code_space\c++\game\frame\frame1.cpp(68,36): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(68,36): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [22]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(68,42): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(68,36): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [22]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(68,42): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(68,36): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(68,37): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(68,36): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [22])”时
+D:\Code_space\c++\game\frame\frame1.cpp(69,39): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(69,39): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [19]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(69,46): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(69,39): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [19]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(69,46): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(69,39): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(69,40): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(69,39): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [19])”时
+D:\Code_space\c++\game\frame\frame1.cpp(70,39): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(70,39): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [19]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(70,46): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(70,39): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [19]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(70,46): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(70,39): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(70,40): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(70,39): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [19])”时
+D:\Code_space\c++\game\frame\frame1.cpp(71,36): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(71,36): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [29]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(71,43): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(71,36): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [29]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(71,43): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(71,36): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(71,37): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(71,36): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [29])”时
+D:\Code_space\c++\game\frame\frame1.cpp(72,17): error C2664: “void files::getFile(LPWSTR)”: 无法将参数 1 从“const wchar_t [10]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(72,27): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\files.h(7,7): message : 参见“files::getFile”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(72,17): message : 尝试匹配参数列表“(const wchar_t [10])”时
+D:\Code_space\c++\game\frame\frame1.cpp(82,36): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(82,36): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(82,42): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(82,36): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(82,42): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(82,36): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(82,37): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(82,36): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [21])”时
+D:\Code_space\c++\game\frame\frame1.cpp(83,36): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(83,36): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(83,42): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(83,36): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(83,42): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(83,36): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(83,37): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(83,36): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [21])”时
+D:\Code_space\c++\game\frame\frame1.cpp(84,36): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(84,36): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(84,42): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(84,36): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(84,42): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(84,36): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(84,37): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(84,36): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [21])”时
+D:\Code_space\c++\game\frame\frame1.cpp(85,36): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(85,36): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(85,42): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(85,36): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(85,42): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(85,36): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(85,37): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(85,36): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [21])”时
+D:\Code_space\c++\game\frame\frame1.cpp(86,36): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(86,36): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(86,42): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(86,36): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(86,42): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(86,36): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(86,37): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(86,36): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [21])”时
+D:\Code_space\c++\game\frame\frame1.cpp(87,36): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(87,36): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(87,42): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(87,36): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(87,42): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(87,36): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(87,37): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(87,36): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [21])”时
+D:\Code_space\c++\game\frame\frame1.cpp(89,34): error C2664: “sprite *frame1::initAmt1(LPWSTR,int,int,int,float)”: 无法将参数 1 从“const wchar_t [23]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(89,43): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(50,17): message : 参见“frame1::initAmt1”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(89,34): message : 尝试匹配参数列表“(const wchar_t [23], int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(90,34): error C2664: “sprite *frame1::initAmt1(LPWSTR,int,int,int,float)”: 无法将参数 1 从“const wchar_t [23]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(90,43): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(50,17): message : 参见“frame1::initAmt1”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(90,34): message : 尝试匹配参数列表“(const wchar_t [23], int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(91,34): error C2664: “sprite *frame1::initAmt1(LPWSTR,int,int,int,float)”: 无法将参数 1 从“const wchar_t [23]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(91,43): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(50,17): message : 参见“frame1::initAmt1”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(91,34): message : 尝试匹配参数列表“(const wchar_t [23], int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(92,34): error C2664: “sprite *frame1::initAmt1(LPWSTR,int,int,int,float)”: 无法将参数 1 从“const wchar_t [23]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(92,43): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(50,17): message : 参见“frame1::initAmt1”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(92,34): message : 尝试匹配参数列表“(const wchar_t [23], int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(93,34): error C2664: “sprite *frame1::initAmt1(LPWSTR,int,int,int,float)”: 无法将参数 1 从“const wchar_t [23]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(93,43): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(50,17): message : 参见“frame1::initAmt1”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(93,34): message : 尝试匹配参数列表“(const wchar_t [23], int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(94,34): error C2664: “sprite *frame1::initAmt1(LPWSTR,int,int,int,float)”: 无法将参数 1 从“const wchar_t [23]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(94,43): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(50,17): message : 参见“frame1::initAmt1”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(94,34): message : 尝试匹配参数列表“(const wchar_t [23], int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(95,34): error C2664: “sprite *frame1::initAmt1(LPWSTR,int,int,int,float)”: 无法将参数 1 从“const wchar_t [23]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(95,43): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(50,17): message : 参见“frame1::initAmt1”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(95,34): message : 尝试匹配参数列表“(const wchar_t [23], int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(97,40): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(97,40): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [23]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(97,47): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(97,40): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [23]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(97,47): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(97,40): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(97,41): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(97,40): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [23])”时
+D:\Code_space\c++\game\frame\frame1.cpp(98,40): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(98,40): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [23]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(98,47): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(98,40): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [23]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(98,47): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(98,40): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(98,41): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(98,40): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [23])”时
+D:\Code_space\c++\game\frame\frame1.cpp(99,40): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(99,40): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [23]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(99,47): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(99,40): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [23]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(99,47): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(99,40): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(99,41): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(99,40): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [23])”时
+D:\Code_space\c++\game\frame\frame1.cpp(100,40): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(100,40): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [23]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(100,47): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(100,40): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [23]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(100,47): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(100,40): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(100,41): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(100,40): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [23])”时
+D:\Code_space\c++\game\frame\frame1.cpp(101,40): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(101,40): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [23]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(101,47): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(101,40): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [23]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(101,47): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(101,40): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(101,41): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(101,40): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [23])”时
+D:\Code_space\c++\game\frame\frame1.cpp(102,40): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(102,40): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [23]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(102,47): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(102,40): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [23]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(102,47): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(102,40): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(102,41): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(102,40): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [23])”时
+D:\Code_space\c++\game\frame\frame1.cpp(103,40): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(103,40): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [23]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(103,47): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(103,40): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [23]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(103,47): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(103,40): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(103,41): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(103,40): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [23])”时
+D:\Code_space\c++\game\frame\frame1.cpp(105,41): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(105,41): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(105,48): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(105,41): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(105,48): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(105,41): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(105,42): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(105,41): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [21])”时
+D:\Code_space\c++\game\frame\frame1.cpp(106,41): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(106,41): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(106,48): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(106,41): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(106,48): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(106,41): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(106,42): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(106,41): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [21])”时
+D:\Code_space\c++\game\frame\frame1.cpp(107,41): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(107,41): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(107,48): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(107,41): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(107,48): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(107,41): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(107,42): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(107,41): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [21])”时
+D:\Code_space\c++\game\frame\frame1.cpp(108,41): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(108,41): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(108,48): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(108,41): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(108,48): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(108,41): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(108,42): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(108,41): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [21])”时
+D:\Code_space\c++\game\frame\frame1.cpp(109,41): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(109,41): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(109,48): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(109,41): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(109,48): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(109,41): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(109,42): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(109,41): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [21])”时
+D:\Code_space\c++\game\frame\frame1.cpp(110,41): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(110,41): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(110,48): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(110,41): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(110,48): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(110,41): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(110,42): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(110,41): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [21])”时
+D:\Code_space\c++\game\frame\frame1.cpp(111,41): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(111,41): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(111,48): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(111,41): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(111,48): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(111,41): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(111,42): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(111,41): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [21])”时
+D:\Code_space\c++\game\frame\frame1.cpp(114,10): error C2664: “fishConfig *frame1::initFishConfig(LPWSTR,int,int,int,int,int,int,int,int,int)”: 无法将参数 1 从“const wchar_t [19]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(114,25): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(62,24): message : 参见“frame1::initFishConfig”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(114,10): message : 尝试匹配参数列表“(const wchar_t [19], int, int, int, int, int, int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(115,10): error C2664: “fishConfig *frame1::initFishConfig(LPWSTR,int,int,int,int,int,int,int,int,int)”: 无法将参数 1 从“const wchar_t [19]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(115,25): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(62,24): message : 参见“frame1::initFishConfig”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(115,10): message : 尝试匹配参数列表“(const wchar_t [19], int, int, int, int, int, int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(116,10): error C2664: “fishConfig *frame1::initFishConfig(LPWSTR,int,int,int,int,int,int,int,int,int)”: 无法将参数 1 从“const wchar_t [19]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(116,25): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(62,24): message : 参见“frame1::initFishConfig”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(116,10): message : 尝试匹配参数列表“(const wchar_t [19], int, int, int, int, int, int, int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(117,10): error C2664: “fishConfig *frame1::initFishConfig(LPWSTR,int,int,int,int,int,int,int,int,int)”: 无法将参数 1 从“const wchar_t [19]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(117,25): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(62,24): message : 参见“frame1::initFishConfig”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(117,10): message : 尝试匹配参数列表“(const wchar_t [19], int, int, int, int, int, int, int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(118,10): error C2664: “fishConfig *frame1::initFishConfig(LPWSTR,int,int,int,int,int,int,int,int,int)”: 无法将参数 1 从“const wchar_t [19]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(118,25): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(62,24): message : 参见“frame1::initFishConfig”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(118,10): message : 尝试匹配参数列表“(const wchar_t [19], int, int, int, int, int, int, int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(119,10): error C2664: “fishConfig *frame1::initFishConfig(LPWSTR,int,int,int,int,int,int,int,int,int)”: 无法将参数 1 从“const wchar_t [19]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(119,25): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(62,24): message : 参见“frame1::initFishConfig”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(119,10): message : 尝试匹配参数列表“(const wchar_t [19], int, int, int, int, int, int, int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(120,10): error C2664: “fishConfig *frame1::initFishConfig(LPWSTR,int,int,int,int,int,int,int,int,int)”: 无法将参数 1 从“const wchar_t [19]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(120,25): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(62,24): message : 参见“frame1::initFishConfig”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(120,10): message : 尝试匹配参数列表“(const wchar_t [19], int, int, int, int, int, int, int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(121,10): error C2664: “fishConfig *frame1::initFishConfig(LPWSTR,int,int,int,int,int,int,int,int,int)”: 无法将参数 1 从“const wchar_t [19]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(121,25): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(62,24): message : 参见“frame1::initFishConfig”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(121,10): message : 尝试匹配参数列表“(const wchar_t [19], int, int, int, int, int, int, int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(122,10): error C2664: “fishConfig *frame1::initFishConfig(LPWSTR,int,int,int,int,int,int,int,int,int)”: 无法将参数 1 从“const wchar_t [20]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(122,25): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(62,24): message : 参见“frame1::initFishConfig”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(122,10): message : 尝试匹配参数列表“(const wchar_t [20], int, int, int, int, int, int, int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(123,10): error C2664: “fishConfig *frame1::initFishConfig(LPWSTR,int,int,int,int,int,int,int,int,int)”: 无法将参数 1 从“const wchar_t [19]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(123,25): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(62,24): message : 参见“frame1::initFishConfig”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(123,10): message : 尝试匹配参数列表“(const wchar_t [19], int, int, int, int, int, int, int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(124,10): error C2664: “fishConfig *frame1::initFishConfig(LPWSTR,int,int,int,int,int,int,int,int,int)”: 无法将参数 1 从“const wchar_t [20]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(124,25): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(62,24): message : 参见“frame1::initFishConfig”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(124,10): message : 尝试匹配参数列表“(const wchar_t [20], int, int, int, int, int, int, int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(125,10): error C2664: “fishConfig *frame1::initFishConfig(LPWSTR,int,int,int,int,int,int,int,int,int)”: 无法将参数 1 从“const wchar_t [20]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(125,25): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(62,24): message : 参见“frame1::initFishConfig”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(125,10): message : 尝试匹配参数列表“(const wchar_t [20], int, int, int, int, int, int, int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(126,10): error C2664: “fishConfig *frame1::initFishConfig(LPWSTR,int,int,int,int,int,int,int,int,int)”: 无法将参数 1 从“const wchar_t [20]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(126,25): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(62,24): message : 参见“frame1::initFishConfig”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(126,10): message : 尝试匹配参数列表“(const wchar_t [20], int, int, int, int, int, int, int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(127,10): error C2664: “fishConfig *frame1::initFishConfig(LPWSTR,int,int,int,int,int,int,int,int,int)”: 无法将参数 1 从“const wchar_t [20]”转换为“LPWSTR”
+D:\Code_space\c++\game\frame\frame1.cpp(127,25): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\frame\frame1.h(62,24): message : 参见“frame1::initFishConfig”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(127,10): message : 尝试匹配参数列表“(const wchar_t [20], int, int, int, int, int, int, int, int, int)”时
+D:\Code_space\c++\game\frame\frame1.cpp(151,54): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame1.cpp(152,55): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame1.cpp(158,26): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(158,26): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [23]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(158,40): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(158,26): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [23]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(158,40): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(158,26): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(158,35): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(158,26): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [23])”时
+D:\Code_space\c++\game\frame\frame1.cpp(167,34): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(167,34): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [22]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(167,48): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(167,34): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [22]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(167,48): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(167,34): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(167,43): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(167,34): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [22])”时
+D:\Code_space\c++\game\frame\frame1.cpp(189,26): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(189,26): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [29]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(189,40): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(189,26): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [29]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(189,40): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(189,26): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(189,35): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(189,26): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [29])”时
+D:\Code_space\c++\game\frame\frame1.cpp(190,29): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(190,29): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [30]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(190,43): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(190,29): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [30]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(190,43): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(190,29): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(190,38): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(190,29): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [30])”时
+D:\Code_space\c++\game\frame\frame1.cpp(191,34): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(191,34): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [31]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame1.cpp(191,48): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(191,34): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [31]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(191,48): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame1.cpp(191,34): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame1.cpp(191,43): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame1.cpp(191,34): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [31])”时
+D:\Code_space\c++\game\frame\frame1.cpp(221,20): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame1.cpp(222,21): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame1.cpp(234,13): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame1.cpp(235,14): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame1.cpp(248,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\frame\frame1.cpp(271,73): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\Code_space\c++\game\frame\frame1.cpp(352,45): error C2664: “ID2D1Bitmap *Content::getSoucre(WCHAR *)”: 无法将参数 1 从“const wchar_t [30]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(352,57): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\Content.h(58,26): message : 参见“Content::getSoucre”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(352,45): message : 尝试匹配参数列表“(const wchar_t [30])”时
+D:\Code_space\c++\game\frame\frame1.cpp(353,50): error C2664: “ID2D1Bitmap *Content::getSoucre(WCHAR *)”: 无法将参数 1 从“const wchar_t [31]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(353,62): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\Content.h(58,26): message : 参见“Content::getSoucre”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(353,50): message : 尝试匹配参数列表“(const wchar_t [31])”时
+D:\Code_space\c++\game\frame\frame1.cpp(396,45): error C2664: “ID2D1Bitmap *Content::getSoucre(WCHAR *)”: 无法将参数 1 从“const wchar_t [35]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(396,57): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\Content.h(58,26): message : 参见“Content::getSoucre”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(396,45): message : 尝试匹配参数列表“(const wchar_t [35])”时
+D:\Code_space\c++\game\frame\frame1.cpp(399,50): error C2664: “ID2D1Bitmap *Content::getSoucre(WCHAR *)”: 无法将参数 1 从“const wchar_t [36]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame1.cpp(399,62): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\Content.h(58,26): message : 参见“Content::getSoucre”的声明
+D:\Code_space\c++\game\frame\frame1.cpp(399,50): message : 尝试匹配参数列表“(const wchar_t [36])”时
+D:\Code_space\c++\game\frame\frame1.cpp(414,3): warning C4838: 从“int”转换到“float”需要收缩转换
+D:\Code_space\c++\game\frame\frame1.cpp(414,3): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame1.cpp(414,5): warning C4838: 从“int”转换到“float”需要收缩转换
+D:\Code_space\c++\game\frame\frame1.cpp(414,5): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame1.cpp(422,37): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+  frame2.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\frame2.cpp(9,25): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Code_space\c++\game\frame\frame2.cpp(31,26): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(31,26): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [26]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame2.cpp(31,40): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(31,26): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [26]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame2.cpp(31,40): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(31,26): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame2.cpp(31,35): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame2.cpp(31,26): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [26])”时
+D:\Code_space\c++\game\frame\frame2.cpp(32,17): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame2.cpp(33,18): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame2.cpp(40,36): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(40,36): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame2.cpp(40,50): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(40,36): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame2.cpp(40,50): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(40,36): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame2.cpp(40,45): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame2.cpp(40,36): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [21])”时
+D:\Code_space\c++\game\frame\frame2.cpp(41,36): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(41,36): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame2.cpp(41,50): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(41,36): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame2.cpp(41,50): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(41,36): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame2.cpp(41,45): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame2.cpp(41,36): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [21])”时
+D:\Code_space\c++\game\frame\frame2.cpp(42,36): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(42,36): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame2.cpp(42,50): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(42,36): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame2.cpp(42,50): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(42,36): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame2.cpp(42,45): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame2.cpp(42,36): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [21])”时
+D:\Code_space\c++\game\frame\frame2.cpp(43,36): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(43,36): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame2.cpp(43,50): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(43,36): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame2.cpp(43,50): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(43,36): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame2.cpp(43,45): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame2.cpp(43,36): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [21])”时
+D:\Code_space\c++\game\frame\frame2.cpp(44,36): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(44,36): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame2.cpp(44,50): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(44,36): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame2.cpp(44,50): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(44,36): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame2.cpp(44,45): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame2.cpp(44,36): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [21])”时
+D:\Code_space\c++\game\frame\frame2.cpp(45,36): error C2665: “sprite::sprite”: 没有重载函数可以转换所有参数类型
+D:\Code_space\c++\game\render\sprite.h(9,2): message : 可能是“sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(45,36): message : “sprite::sprite(DemoApp *,ID2D1Bitmap *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“ID2D1Bitmap *”
+D:\Code_space\c++\game\frame\frame2.cpp(45,50): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\render\sprite.h(8,2): message : 或    “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(45,36): message : “sprite::sprite(DemoApp *,WCHAR *,std::string,int,int)”: 无法将参数 2 从“const wchar_t [21]”转换为“WCHAR *”
+D:\Code_space\c++\game\frame\frame2.cpp(45,50): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\Code_space\c++\game\render\sprite.h(7,2): message : 或    “sprite::sprite(int,int)”
+D:\Code_space\c++\game\frame\frame2.cpp(45,36): message : “sprite::sprite(int,int)”: 无法将参数 1 从“DemoApp *”转换为“int”
+D:\Code_space\c++\game\frame\frame2.cpp(45,45): message : 没有使该转换得以执行的上下文
+D:\Code_space\c++\game\frame\frame2.cpp(45,36): message : 尝试匹配参数列表“(DemoApp *, const wchar_t [21])”时
+D:\Code_space\c++\game\frame\frame2.cpp(58,29): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame2.cpp(59,30): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame2.cpp(78,41): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  gold.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\gold.h(10,17): error C4596: “setX”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\gold.h(11,17): error C4596: “setY”: 成员声明中的非法限定名
+D:\Code_space\c++\game\frame\gold.cpp(68,18): warning C4305: “+=”: 从“double”到“float”截断
+  collision.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\collision.h(3,20): warning C4091: “extern ”: 没有声明变量时忽略“sprite”的左侧
+D:\Code_space\c++\game\instance\collision.h(27,30): error C4596: “getPoint1Arr”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\collision.h(31,2): warning C4091: “extern ”: 没有声明变量时忽略“collision”的左侧
+D:\Code_space\c++\game\instance\collision.cpp(31,69): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(34,78): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(37,78): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(40,78): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(70,64): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(73,71): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(76,71): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(79,71): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(87,140): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(88,140): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(108,14): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(111,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(112,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(114,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(115,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(117,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(118,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(120,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(121,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(144,76): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(145,82): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(146,82): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(239,70): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(239,54): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  colVec.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.cpp(50,14): error C2511: “void colVec::getSLCoordinateSystem(const utils::useSpSt,const int)”:“colVec”中没有找到重载的成员函数
+D:\Code_space\c++\game\instance\colVec.h(2,7): message : 参见“colVec”的声明
+D:\Code_space\c++\game\instance\colVec.cpp(51,25): error C2671: “colVec::getSLCoordinateSystem”: 静态成员函数没有“this”指针
+D:\Code_space\c++\game\instance\colVec.cpp(51,23): error C2530: “l_a”: 必须初始化引用
+D:\Code_space\c++\game\instance\colVec.cpp(57,12): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(70,34): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(71,57): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(73,40): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(80,14): error C2511: “void colVec::getShapePoints(const utils::useSpSt,const int)”:“colVec”中没有找到重载的成员函数
+D:\Code_space\c++\game\instance\colVec.h(2,7): message : 参见“colVec”的声明
+D:\Code_space\c++\game\instance\colVec.cpp(81,12): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(87,2): error C2671: “colVec::getShapePoints”: 静态成员函数没有“this”指针
+D:\Code_space\c++\game\instance\colVec.cpp(88,25): error C2671: “colVec::getShapePoints”: 静态成员函数没有“this”指针
+D:\Code_space\c++\game\instance\colVec.cpp(88,23): error C2530: “l_a”: 必须初始化引用
+D:\Code_space\c++\game\instance\colVec.cpp(94,2): error C2671: “colVec::getShapePoints”: 静态成员函数没有“this”指针
+D:\Code_space\c++\game\instance\colVec.cpp(94,54): error C2671: “colVec::getShapePoints”: 静态成员函数没有“this”指针
+D:\Code_space\c++\game\instance\colVec.cpp(95,2): error C2671: “colVec::getShapePoints”: 静态成员函数没有“this”指针
+D:\Code_space\c++\game\instance\colVec.cpp(95,25): error C2671: “colVec::getShapePoints”: 静态成员函数没有“this”指针
+D:\Code_space\c++\game\instance\colVec.cpp(95,77): error C2671: “colVec::getShapePoints”: 静态成员函数没有“this”指针
+D:\Code_space\c++\game\instance\colVec.cpp(96,2): error C2671: “colVec::getShapePoints”: 静态成员函数没有“this”指针
+D:\Code_space\c++\game\instance\colVec.cpp(96,60): error C2671: “colVec::getShapePoints”: 静态成员函数没有“this”指针
+D:\Code_space\c++\game\instance\colVec.cpp(104,45): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(106,44): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(120,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(126,12): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(131,37): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(141,43): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(142,44): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(174,14): error C2511: “bool colVec::obb(utils::useSpSt,utils::useSpSt)”:“colVec”中没有找到重载的成员函数
+D:\Code_space\c++\game\instance\colVec.h(2,7): message : 参见“colVec”的声明
+D:\Code_space\c++\game\instance\colVec.cpp(176,2): error C2671: “colVec::obb”: 静态成员函数没有“this”指针
+D:\Code_space\c++\game\instance\colVec.cpp(177,2): error C2671: “colVec::obb”: 静态成员函数没有“this”指针
+D:\Code_space\c++\game\instance\colVec.cpp(178,2): error C2671: “colVec::obb”: 静态成员函数没有“this”指针
+D:\Code_space\c++\game\instance\colVec.cpp(180,9): error C2671: “colVec::obb”: 静态成员函数没有“this”指针
+D:\Code_space\c++\game\instance\colVec.cpp(187,69): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(190,78): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(193,78): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(196,78): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  d2dWin32.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+  DemoApp.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+D:\Code_space\c++\game\trigger\createBefore.h(2,22): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\instance\DemoApp.cpp(96,24): error C2440: “=”: 无法从“const wchar_t [5]”转换为“LPCSTR”
+D:\Code_space\c++\game\instance\DemoApp.cpp(96,24): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Code_space\c++\game\instance\DemoApp.cpp(104,12): error C2664: “HWND CreateWindowExA(DWORD,LPCSTR,LPCSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)”: 无法将参数 2 从“const wchar_t [5]”转换为“LPCSTR”
+D:\Code_space\c++\game\instance\DemoApp.cpp(104,12): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(4417,1): message : 参见“CreateWindowExA”的声明
+D:\Code_space\c++\game\instance\DemoApp.cpp(104,12): message : 尝试匹配参数列表“(long, const wchar_t [5], const wchar_t [4], long, int, int, int, int, int, int, HINSTANCE, DemoApp *)”时
+D:\Code_space\c++\game\instance\DemoApp.cpp(202,29): warning C4244: “参数”: 从“WPARAM”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\instance\DemoApp.cpp(207,31): warning C4244: “参数”: 从“WPARAM”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\instance\DemoApp.cpp(280,9): warning C4244: “return”: 从“LRESULT”转换到“HRESULT”，可能丢失数据
+  oMap.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+  stdafx.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\stdafx.cpp(11,72): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\instance\stdafx.cpp(13,67): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\instance\stdafx.cpp(21,18): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  utils.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+  action.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\action.cpp(21,36): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\Code_space\c++\game\render\action.cpp(31,36): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  animateSprite.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+  Content.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\Content.cpp(85,60): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(121,21): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(121,18): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(132,42): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(132,39): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(143,19): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(143,17): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(144,22): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(144,15): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(145,3): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(160,57): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(160,49): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(160,46): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(160,44): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(174,20): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(174,17): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(176,3): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(175,3): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(183,57): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(189,20): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(189,17): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(191,3): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(190,3): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(205,20): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(205,17): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(204,3): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(214,4): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(214,4): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(215,4): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(215,4): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(219,20): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(219,17): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(224,53): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(224,45): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(234,3): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(234,3): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(235,3): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(235,3): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(252,95): warning C4267: “参数”: 从“size_t”转换到“UINT32”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(257,47): warning C4244: “参数”: 从“double”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(303,22): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(303,22): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(303,24): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(303,24): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(318,3): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(322,63): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(322,52): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(322,47): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(322,44): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(326,22): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(326,22): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(326,24): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(326,24): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(331,22): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(331,22): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(331,24): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(331,24): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(331,28): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(331,28): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(331,38): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(331,38): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(336,22): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(336,22): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(336,24): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(336,24): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(336,28): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(336,28): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(336,38): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(336,38): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(341,22): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(341,22): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(341,24): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(341,24): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(341,28): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(341,28): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(341,38): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(341,38): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(342,24): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(342,24): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(342,29): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(342,29): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(342,39): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(342,39): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(342,55): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(342,55): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(346,22): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(346,22): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(346,24): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(346,24): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(346,28): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(346,28): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(346,38): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(346,38): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(347,24): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(347,24): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(347,29): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(347,29): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(347,39): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(347,39): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(347,55): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(347,55): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(351,22): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(351,22): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(351,24): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(351,24): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(351,28): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(351,28): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(351,38): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(351,38): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(352,29): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(352,29): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(352,38): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(352,38): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(352,50): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(352,50): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(352,72): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(352,72): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(369,8): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(377,8): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(383,53): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(383,46): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(383,42): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(383,39): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(384,78): warning C4267: “参数”: 从“size_t”转换到“UINT32”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(387,56): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(387,47): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(387,42): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(387,39): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(389,78): warning C4267: “参数”: 从“size_t”转换到“UINT32”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(392,54): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(392,47): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(392,42): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(392,39): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(393,82): warning C4267: “参数”: 从“size_t”转换到“UINT32”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(396,54): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(396,47): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(396,42): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(396,39): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(398,78): warning C4267: “参数”: 从“size_t”转换到“UINT32”，可能丢失数据
+  DisplayObject.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.cpp(37,30): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\DisplayObject.cpp(77,12): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\DisplayObject.cpp(83,12): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\DisplayObject.cpp(93,32): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  sprite.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.cpp(4,12): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(5,12): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(13,42): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(16,17): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(19,43): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(22,18): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(29,42): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(32,17): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(35,43): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(38,18): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(63,43): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(89,35): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(103,89): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(103,46): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(108,103): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(108,78): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(108,62): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(108,47): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(111,104): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(111,79): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(111,62): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(111,47): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(115,72): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(115,60): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(115,50): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(115,40): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(118,104): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(118,79): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(118,62): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(118,47): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(122,42): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  ticker.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\ticker.cpp(34,44): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  createBefore.cpp
+D:\Code_space\c++\game\instance\utils.h(10,25): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\utils.h(10,25): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\utils.h(10,43): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\utils.h(10,43): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\utils.h(10,43): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\utils.h(10,3): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\instance\oMap.h(54,24): error C3878: 语法错误: "expression" 后出现意外标记 "标识符"
+D:\Code_space\c++\game\instance\oMap.h(54,24): message : 已跳过错误恢复:“标识符 = 标识符  . . . (”
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 正在分析此处的简历
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C2760: syntax error: ')' was unexpected here; expected ';'
+D:\Code_space\c++\game\instance\oMap.h(54,55): error C3878: 语法错误: "expression_statement" 后出现意外标记 ")"
+D:\Code_space\c++\game\instance\oMap.h(54,55): message : 已跳过错误恢复:“) ,”
+D:\Code_space\c++\game\instance\oMap.h(54,2): error C7510: “iterator”: 类型 从属名称的使用必须以“typename”为前缀
+D:\Code_space\c++\game\render\DisplayObject.h(21,47): error C4596: “getChildById”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\DisplayObject.h(22,36): error C4596: “inRect”: 成员声明中的非法限定名
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.h(58,35): error C4596: “getSoucre”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(7,18): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(8,15): error C4596: “obb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(9,19): error C4596: “aabb”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(10,29): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(11,22): error C4596: “initVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(12,24): error C4596: “getOneVec”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(13,31): error C4596: “getVecProjection”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(14,28): error C4596: “comparePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(15,36): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(16,15): error C4596: “getShapePoints”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(17,15): error C4596: “getSLCoordinateSystem”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(18,31): error C4596: “polarCoordinates”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(19,30): error C4596: “pointAngleInfo”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(20,27): error C4596: “bezierCurve”: 成员声明中的非法限定名
+D:\Code_space\c++\game\instance\colVec.h(26,20): error C4596: “clear”: 成员声明中的非法限定名
+D:\Code_space\c++\game\trigger\createBefore.h(2,22): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+  正在生成代码...

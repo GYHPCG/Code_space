@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pacg.spring_endback.mapper.CommentMapper">
+    <insert id="save">
+        insert into book_rate_comment (id, content, user_name, rate, user_id, book_id,target, pid, comment_time, update_time)
+        values (#{id}, #{content}, #{userName}, #{rate}, #{userId}, #{bookId}, #{target}, #{pid}, #{commentTime}, #{updateTime});
+    </insert>
+    <update id="rate">
+        update book_rate_comment set rate = #{rate}, update_time =#{updateTime} where user_id = #{userId} and book_id = #{bookId}
+    </update>
+    <select id="findAllByBookId" resultType="com.pacg.spring_endback.entity.Comment">
+        select user.avatar, book_rate_comment.* from user, book_rate_comment where user.id = book_rate_comment.user_id and  book_id = #{bookId} and content IS NOT NULL
+    </select>
+    <select id="getRateByBookId" resultType="com.pacg.spring_endback.entity.Comment">
+        select * from book_rate_comment where book_id = #{bookId}
+    </select>
+    <select id="getPersonalRate" resultType="java.math.BigDecimal">
+        select rate
+        from book_rate_comment where book_id = #{bookId} and user_id = #{userId} and user_name = #{userName};
+    </select>
+</mapper>

@@ -1,0 +1,346 @@
+﻿  bullet.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\frame\bullet.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Code_space\c++\game\frame\bullet.cpp(34,33): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\bullet.cpp(35,34): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\bullet.cpp(88,8): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\frame\bullet.cpp(114,7): warning C4804: “%”: 在操作中使用类型“bool”不安全
+  files.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\frame\files.cpp(52,11): warning C4018: “<”: 有符号/无符号不匹配
+  fish.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\frame\fish.cpp(67,47): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+  fishConfig.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\frame\fishConfig.cpp(87,31): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\fishConfig.cpp(92,31): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\fishConfig.cpp(96,23): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\fishConfig.cpp(100,23): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\fishConfig.cpp(178,33): warning C4018: “>”: 有符号/无符号不匹配
+D:\Code_space\c++\game\frame\fishConfig.cpp(195,20): warning C4244: “初始化”: 从“float”转换到“unsigned int”，可能丢失数据
+D:\Code_space\c++\game\frame\fishConfig.cpp(196,20): warning C4244: “初始化”: 从“float”转换到“unsigned int”，可能丢失数据
+D:\Code_space\c++\game\frame\fishConfig.cpp(215,21): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\fishConfig.cpp(216,22): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  frame0.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\frame\frame0.cpp(11,20): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Code_space\c++\game\frame\frame0.cpp(27,17): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame0.cpp(28,18): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  frame1.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\frame\bullet.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Code_space\c++\game\frame\frame1.cpp(151,54): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame1.cpp(152,55): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame1.cpp(221,20): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame1.cpp(222,21): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame1.cpp(234,13): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame1.cpp(235,14): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame1.cpp(414,3): warning C4838: 从“int”转换到“float”需要收缩转换
+D:\Code_space\c++\game\frame\frame1.cpp(414,3): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame1.cpp(414,5): warning C4838: 从“int”转换到“float”需要收缩转换
+D:\Code_space\c++\game\frame\frame1.cpp(414,5): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame1.cpp(422,37): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+  frame2.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\frame\frame2.cpp(9,20): warning C4305: “初始化”: 从“double”到“float”截断
+D:\Code_space\c++\game\frame\frame2.cpp(32,17): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame2.cpp(33,18): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame2.cpp(58,29): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\frame\frame2.cpp(59,30): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  gold.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\frame\gold.cpp(68,18): warning C4305: “+=”: 从“double”到“float”截断
+  collision.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\instance\collision.h(3,20): warning C4091: “extern ”: 没有声明变量时忽略“sprite”的左侧
+D:\Code_space\c++\game\instance\collision.h(31,2): warning C4091: “extern ”: 没有声明变量时忽略“collision”的左侧
+D:\Code_space\c++\game\instance\collision.cpp(31,69): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(34,78): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(37,78): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(40,78): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(70,64): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(73,71): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(76,71): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(79,71): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(87,140): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(88,140): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(108,14): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(111,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(112,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(114,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(115,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(117,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(118,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(120,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(121,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(144,76): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(145,82): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(146,82): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(239,70): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\instance\collision.cpp(239,54): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  colVec.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\instance\colVec.cpp(57,12): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(70,34): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(71,57): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(73,40): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(81,12): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(94,46): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(95,68): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(96,51): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(120,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(126,12): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(187,69): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(190,78): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(193,78): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\instance\colVec.cpp(196,78): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  d2dWin32.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+  DemoApp.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\trigger\createBefore.h(2,22): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+  oMap.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+  stdafx.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\instance\stdafx.cpp(21,18): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  utils.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+  action.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+  animateSprite.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+  Content.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\Content.cpp(85,60): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(121,21): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(121,18): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(132,42): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(132,39): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(143,19): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(143,17): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(144,22): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(144,15): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(145,3): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(160,57): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(160,49): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(160,46): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(160,44): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(174,20): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(174,17): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(176,3): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(175,3): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(183,57): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(189,20): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(189,17): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(191,3): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(190,3): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(205,20): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(205,17): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(204,3): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(214,4): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(214,4): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(215,4): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(215,4): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(219,20): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(219,17): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(224,53): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(224,45): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(234,3): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(234,3): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(235,3): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(235,3): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(257,47): warning C4244: “参数”: 从“double”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(272,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Code_space\c++\game\render\Content.cpp(303,22): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(303,22): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(303,24): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(303,24): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(318,3): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(322,63): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(322,52): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(322,47): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(322,44): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(326,22): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(326,22): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(326,24): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(326,24): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(331,22): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(331,22): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(331,24): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(331,24): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(331,28): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(331,28): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(331,38): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(331,38): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(336,22): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(336,22): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(336,24): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(336,24): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(336,28): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(336,28): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(336,38): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(336,38): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(341,22): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(341,22): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(341,24): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(341,24): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(341,28): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(341,28): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(341,38): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(341,38): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(342,24): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(342,24): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(342,29): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(342,29): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(342,39): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(342,39): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(342,55): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(342,55): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(346,22): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(346,22): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(346,24): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(346,24): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(346,28): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(346,28): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(346,38): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(346,38): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(347,24): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(347,24): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(347,29): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(347,29): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(347,39): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(347,39): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(347,55): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(347,55): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(351,22): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(351,22): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(351,24): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(351,24): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(351,28): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(351,28): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(351,38): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(351,38): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(352,29): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(352,29): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(352,38): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(352,38): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(352,50): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(352,50): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(352,72): warning C4838: 从“int”转换到“FLOAT”需要收缩转换
+D:\Code_space\c++\game\render\Content.cpp(352,72): warning C4244: “初始化”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(369,8): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(377,8): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(383,53): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(383,46): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(383,42): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(383,39): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(387,56): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(387,47): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(387,42): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(387,39): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(392,54): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(392,47): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(392,42): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(392,39): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(396,54): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(396,47): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(396,42): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(396,39): warning C4244: “参数”: 从“int”转换到“FLOAT”，可能丢失数据
+D:\Code_space\c++\game\render\Content.cpp(412,19): warning C4018: “<”: 有符号/无符号不匹配
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\d2d1helper.h(78,52): warning C4838: 从“Type”转换到“FLOAT”需要收缩转换
+          with
+          [
+              Type=int
+          ]
+D:\Code_space\c++\game\render\Content.cpp(224,67): message : 查看对正在编译的函数 模板 实例化“D2D1::TypeTraits<int>::Point D2D1::Point2<int>(Type,Type)”的引用
+          with
+          [
+              Type=int
+          ]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\d2d1helper.h(78,52): warning C4244: “初始化”: 从“Type”转换到“FLOAT”，可能丢失数据
+          with
+          [
+              Type=int
+          ]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\d2d1helper.h(78,55): warning C4838: 从“Type”转换到“FLOAT”需要收缩转换
+          with
+          [
+              Type=int
+          ]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\d2d1helper.h(78,55): warning C4244: “初始化”: 从“Type”转换到“FLOAT”，可能丢失数据
+          with
+          [
+              Type=int
+          ]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\d2d1helper.h(114,50): warning C4838: 从“Type”转换到“FLOAT”需要收缩转换
+          with
+          [
+              Type=int
+          ]
+D:\Code_space\c++\game\render\Content.cpp(321,70): message : 查看对正在编译的函数 模板 实例化“D2D1::TypeTraits<int>::Size D2D1::Size<int>(Type,Type)”的引用
+          with
+          [
+              Type=int
+          ]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\d2d1helper.h(114,50): warning C4244: “初始化”: 从“Type”转换到“FLOAT”，可能丢失数据
+          with
+          [
+              Type=int
+          ]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\d2d1helper.h(114,57): warning C4838: 从“Type”转换到“FLOAT”需要收缩转换
+          with
+          [
+              Type=int
+          ]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\d2d1helper.h(114,57): warning C4244: “初始化”: 从“Type”转换到“FLOAT”，可能丢失数据
+          with
+          [
+              Type=int
+          ]
+  DisplayObject.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\DisplayObject.cpp(77,12): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\DisplayObject.cpp(83,12): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  sprite.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\render\sprite.cpp(4,12): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(5,12): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(13,42): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(16,17): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(19,43): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(22,18): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(29,42): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(32,17): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(35,43): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(38,18): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(103,89): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(103,46): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(108,103): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(108,78): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(108,62): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(108,47): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(111,104): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(111,79): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(111,62): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(111,47): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(115,72): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(115,60): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(115,50): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(115,40): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(118,104): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(118,79): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(118,62): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\Code_space\c++\game\render\sprite.cpp(118,47): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  正在生成代码...
+D:\Code_space\c++\game\render\Content.cpp(268): warning C4717: “Content::getTextInfo”: 如递归所有控件路径，函数将导致运行时堆栈溢出
+D:\Code_space\c++\game\instance\collision.cpp(207): warning C4715: “collision::isXj”: 不是所有的控件路径都返回值
+  正在编译...
+  ticker.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+  createBefore.cpp
+D:\Code_space\c++\game\render\sprite.h(3,21): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+D:\Code_space\c++\game\trigger\createBefore.h(2,22): warning C4091: “extern ”: 没有声明变量时忽略“DemoApp”的左侧
+  正在生成代码...
+  cppfish.vcxproj -> D:\Code_space\c++\game\Debug\cppfish.exe

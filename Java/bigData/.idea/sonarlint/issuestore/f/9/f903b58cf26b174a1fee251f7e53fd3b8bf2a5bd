@@ -1,0 +1,13 @@
+
+e
+java:S1858"J"content" is already a string, there's no need to call "toString()" on it.(Ìž«„ÿÿÿÿÿ
+6
+java:S2129" Remove this "String" constructor(¾™®œ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÇ«–ÿÿÿÿÿ
+R
+java:S1854"7Remove this useless assignment to local variable "con".(—ñç‚ùÿÿÿÿ
+C
+java:S1481"(Remove this unused "con" local variable.(—ñç‚ùÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ
+L
+java:S1128"6Remove this unused import 'org.apache.hadoop.io.Text'.(»°ß»

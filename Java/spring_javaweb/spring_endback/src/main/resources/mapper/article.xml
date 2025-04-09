@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pacg.spring_endback.mapper.ArticleMapper">
+    <insert id="newChapter">
+        insert into article_content(book_id,chapter,chapter_id, status, end) values (#{bookId},#{chapter}, #{chapterId}, #{status}, #{end})
+    </insert>
+    <insert id="firstRead">
+        insert into read_history(book_id, chapter_id, user_id, role) values(#{bookId}, #{chapterId}, #{userId}, #{role})
+    </insert>
+    <update id="enable">
+        update article_content set status = #{status} where book_id = #{bookId} and chapter = #{chapter}
+    </update>
+    <update id="edit">
+        update article_content set chapter = #{chapter}, end = #{end}, content = #{content}, status = #{status} where book_id = #{bookId} and chapter_id = #{chapterId}
+
+    </update>
+    <update id="publishChapter">
+        update article_content set chapter = #{chapter}, end = #{end}, content = #{content}, status = true where article_id = #{articleId} and chapter_id = #{chapterId}
+    </update>
+    <update id="updateRead">
+        update read_history set chapter_id = #{chapterId} where book_id = #{bookId} and user_id = #{userId} and role = #{role}
+    </update>
+    <delete id="delChapter">
+        delete from article_content where  book_id = #{bookId} and chapter = #{chapter}
+    </delete>
+    <select id="getContent" resultType="com.pacg.spring_endback.entity.ArticleContent">
+      select book.name, article_content.* from article_content join book on article_content.book_id = book.id where book_id = #{bookId}
+    </select>
+    <select id="getArticleId" resultType="java.lang.Integer">
+        select article_id
+        from article_content where  book_id = #{bookId};
+    </select>
+    <select id="getBookNameAndContent" resultType="com.pacg.spring_endback.entity.EditChapter">
+     select book.name,article_content.article_id, article_content.book_id, article_content.chapter, article_content.chapter_id, article_content.content, article_content.end,article_content.status  from article_content join book on article_content.book_id = book.id where article_content.chapter_id = #{chapterId} and article_content.book_id = #{bookId}
+    </select>
+    <select id="getLatestChap" resultType="com.pacg.spring_endback.entity.EditChapter">
+        select book.name,article_content.article_id, article_content.book_id, article_content.chapter, article_content.chapter_id, article_content.content, article_content.end,article_content.status  from article_content join book on article_content.book_id = book.id where article_content.book_id = #{bookId} ORDER BY
+            article_content.chapter_id DESC
+            LIMIT 1;
+    </select>
+    <select id="isRead" resultType="java.lang.Boolean">
+        select count(*) > 0 from read_history where book_id = #{bookId} and user_id = #{userId} and role = #{role}
+    </select>
+    <select id="getFirstChapter" resultType="com.pacg.spring_endback.entity.EditChapter">
+        select book.name,article_content.article_id, article_content.book_id, article_content.chapter, article_content.chapter_id, article_content.content, article_content.end,article_content.status  from article_content join book on article_content.book_id = book.id where article_content.book_id = #{bookId} ORDER BY
+            article_content.chapter_id ASC
+            LIMIT 1;
+    </select>
+    <select id="getLastReadChapter" resultType="com.pacg.spring_endback.entity.EditChapter">
+        SELECT book.name, article_content.*
+        FROM article_content
+                 JOIN book ON article_content.book_id = book.id
+                 JOIN read_history ON article_content.book_id = read_history.book_id
+        WHERE read_history.book_id = #{bookId}
+          AND read_history.user_id = #{userId}
+          AND read_history.role = #{role}
+          AND read_history.chapter_id = article_content.chapter_id;
+    </select>
+    <select id="userGetContent" resultType="com.pacg.spring_endback.entity.ArticleContent">
+        select book.name, article_content.* from article_content join book on article_content.book_id = book.id where book_id = #{bookId} and article_content.status = 1
+    </select>
+</mapper>

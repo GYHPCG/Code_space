@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pacg.spring_endback.mapper.AuthorMapper">
+    <insert id="addUser">
+        insert into author(pen_name, name, passwd, introduce, phone, book_id, join_time, role, status, qq, avatar) values (#{penName}, #{name}, #{passwd}, #{introduce}, #{phone},#{bookId}, #{joinTime}, #{role}, #{status}, #{qq}, #{avatar})
+    </insert>
+    <update id="updateInfo">
+        update author set pen_name=#{penName}, passwd = #{passwd}, name=#{name}, phone=#{phone}, introduce=#{introduce},address=#{address}, status=#{status}, qq = #{qq}, avatar = #{avatar} where id = #{id}
+    </update>
+    <update id="updatePasswd">
+        update author set passwd=#{newPasswd} where name=#{name} and passwd=#{passwd}
+    </update>
+    <delete id="deleteUser">
+        delete from author where id = #{id}
+    </delete>
+    <select id="listAuthor" resultType="com.pacg.spring_endback.entity.Author">
+        select * from author
+    </select>
+    <select id="page" resultType="com.pacg.spring_endback.entity.Author">
+        select * from author
+        <where>
+            <if test="penName != null and penName != ''">
+                pen_name like concat("%", #{penName}, "%")
+            </if>
+            <if test="name != null and name != ''">
+                and name like concat("%", #{name}, "%")
+            </if>
+            <if test="phone != null and phone != ''">
+                and phone like concat("%", #{phone}, "%")
+            </if>
+            <if test="address != null and address != ''">
+                and address like concat("%", #{address}, "%")
+            </if>
+        </where>
+    </select>
+    <select id="getUser" resultType="com.pacg.spring_endback.entity.Author">
+        select * from author where id = #{id}
+    </select>
+    <select id="getUserByPasswd" resultType="com.pacg.spring_endback.entity.Author"></select>
+    <select id="getUserByName" resultType="com.pacg.spring_endback.entity.Author"></select>
+    <select id="getByName" resultType="com.pacg.spring_endback.entity.Author">
+        select * from author where pen_name=#{name}
+    </select>
+
+</mapper>

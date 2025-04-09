@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <context-param>
+        <param-name>name1</param-name>
+        <param-value>18</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>school</param-name>
+        <param-value>贵大</param-value>
+    </context-param>
+
+    <servlet>
+        <servlet-name>HelloWorld</servlet-name>
+        <servlet-class>guida.day01.HelloWorldServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloWorld</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Forward</servlet-name>
+        <servlet-class>guida.day02.ForwardServlet</servlet-class>
+        <init-param>
+            <param-name>class1</param-name>
+            <param-value>软工2101</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Forward</servlet-name>
+        <url-pattern>/forward</url-pattern>
+    </servlet-mapping>
+
+<!--    <filter>-->
+<!--        <filter-name></filter-name>-->
+<!--    </filter>-->
+</web-app>
+

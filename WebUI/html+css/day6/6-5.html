@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css优先级</title>
+    <style>
+        div{
+            color: red;
+        }
+        /* ！important > 行内样式style > id选择 > 类选择/伪类选择器 > 元素选择器 > 继承或* */
+        /* 继承下来的得到永远都是0 */
+        /* 权重：1000 0100 0010 0001 0000 对应上面的规律（不包括！important）*/
+        /* div ul li 权重 0001 + 0001 + 0001=0003 */
+        /* .nav ui li 权重 0010 + 0001 + 0001 = 0012 */
+        /* a:hover权重：0010 + 0001 = 0011 */
+        /* 注意权重相加永远不会有进位，且是从往右逐步比较，如00011 和0004 比较，因为从左往右第三位001>000则前面的那个权重高 */
+        .demo{
+            color: blueviolet!important;
+        }
+        #de{
+            color: aqua;
+        }
+        /* 权重的叠加 */
+    </style>
+</head>
+<body>
+    <div class="demo" id="de" style="color: yellow;">风雨昏加遇见你，心里怎能不欢喜</div>
+</body>
+</html>

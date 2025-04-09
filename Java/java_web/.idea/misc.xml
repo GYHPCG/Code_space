@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/maven_project01/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_web_quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_mybitis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-crud/pom.xml" />
+        <option value="$PROJECT_DIR$/ES/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/maven_project01/es/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15_PREVIEW" project-jdk-name="15" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

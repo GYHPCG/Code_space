@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+
+}
+li {
+    list-style: none;
+}
+
+.el-popper[x-placement^=bottom] {
+    margin-top: 50px !important;
+}

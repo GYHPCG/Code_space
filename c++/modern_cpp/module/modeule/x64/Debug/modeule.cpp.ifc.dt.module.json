@@ -1,0 +1,11 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\code_space\\c++\\modern_cpp\\module\\modeule\\modeule.cpp",
+        "ProvidedModule": "",
+        "ImportedModules": [
+            "std"
+        ],
+        "ImportedHeaderUnits": []
+    }
+}

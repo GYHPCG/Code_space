@@ -1,0 +1,9 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í¸£Ïøÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í¸£Ïøÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ê÷â±üÿÿÿÿ
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Í¸£Ïøÿÿÿÿ
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Í¸£Ïøÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(¾êáú

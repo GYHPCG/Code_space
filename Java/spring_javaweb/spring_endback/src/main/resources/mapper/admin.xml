@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pacg.spring_endback.mapper.AdminMapper">
+<!-- 添加用户 -->
+    <insert id="addUser">
+        insert into admin(name, age, passwd, phone_number, sex, address, email, status) values(#{name},#{age}, #{passwd}, #{phoneNumber}, #{sex}, #{address}, #{email}, #{status} )
+    </insert>
+    <update id="updateInfo">
+        update admin set name=#{name}, age=#{age}, phone_number=#{phoneNumber}, sex=#{sex},address=#{address}, email=#{email}, status = #{status} where id = #{id}
+    </update>
+    <update id="updatePasswd">
+        update admin set passwd=#{newPasswd} where name=#{name} and passwd = #{passwd}
+    </update>
+    <delete id="deleteUser">
+        delete from admin where id = #{id}
+    </delete>
+    <select id="listUser" resultType="com.pacg.spring_endback.entity.Admin">
+        select * from admin
+    </select>
+<!--    用户动态查询分页查询-->
+    <select id="page" resultType="com.pacg.spring_endback.entity.Admin">
+        select * from admin
+        <where>
+            <if test="name != null and name != ''">
+                name like concat("%", #{name}, "%")
+            </if>
+            <if test="age != null and age != ''">
+                 and age like concat("%", #{age}, "%")
+            </if>
+            <if test="phoneNumber != null and phoneNumber != ''">
+                and phone_number like concat("%", #{pageNumber}, "%")
+            </if>
+            <if test="address != null and address != ''">
+                and address like concat("%", #{address}, "%")
+            </if>
+            <if test="sex != null and sex != ''">
+                and sex like concat("%", #{sex}, "%")
+            </if>
+            <if test="email != null and sex != ''">
+                and email like concat("%", #{email}, "%")
+            </if>
+        </where>
+    </select>
+    <select id="getUser" resultType="com.pacg.spring_endback.entity.Admin">
+        select name, age, phone_number, sex, address from admin where id = #{id}
+    </select>
+    <select id="getUserBypasswd" resultType="com.pacg.spring_endback.entity.Admin">
+        select * from admin where name=#{name} and passwd = #{passwd}
+    </select>
+    <select id="getUserByName" resultType="com.pacg.spring_endback.entity.Admin">
+        select * from admin where name=#{name}
+    </select>
+
+</mapper>

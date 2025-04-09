@@ -1,0 +1,38 @@
+server:
+  port: 9099
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${ip}:3306/book_system?serverTimezone=GMT%2b8
+    username: root
+    password: pcg20010812
+  devtools:
+    restart:
+      enabled: true  #设置开启热部署
+      additional-paths: src/main/java #重启目录
+      exclude: WEB-INF/**
+    freemarker:
+      cache: false    #页面不加载缓存，修改即时生效
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+  mail:
+    host: smtp.qq.com
+    username: 2986779260@qq.com #开通SMTP服务的邮箱账号
+    password: cmkilibpohpidcgd #授权码
+    port: 587
+    default-encoding: UTF-8
+    protocol: smtp
+  #放开springmvc对静态资源的拦截
+  mvc:
+    static-path-pattern: /static/**
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+ip: localhost

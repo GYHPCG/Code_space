@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\std.ixx.obj",
+            "outputs": [
+                "D:\\Code_space\\c++\\modern_cpp\\module\\Test\\x64\\Debug\\vc143.pdb",
+                "x64\\Debug\\",
+                "D:\\Code_space\\c++\\modern_cpp\\module\\Test\\x64\\Debug\\std.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "std",
+                    "source-path": "d:\\codesoft\\vs\\vs2022\\vc\\tools\\msvc\\14.37.32705\\modules\\std.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

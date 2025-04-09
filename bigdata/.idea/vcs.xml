@@ -8,6 +8,8 @@
     <mapping directory="$PROJECT_DIR$/../github/effectiveCPP" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../github/essential_cpp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../os/rust-rustlings-2023-autumn-GYHPCG" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../os/rust-rustlings-2024-spring-GYHPCG" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../os/rustlings-100exercises-GYHPCG" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../python/BeijingClimateDataAnalysis" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../python/my-python" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../python/python" vcs="Git" />

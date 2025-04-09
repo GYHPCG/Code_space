@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="2023_java_web:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/2023_java_web_war</output-path>
+    <root id="archive" name="2023_java_web_war.war">
+      <element id="artifact" artifact-name="2023_java_web:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pacg.spring_endback.mapper.BookMapper">
+<!-- 添加用户 -->
+    <insert id="addBook">
+        insert into book(name, author, introduction, type, create_date, update_time, img_url, status) values(#{name},#{author}, #{introduction}, #{type}, #{createDate}, #{updateTime}, #{imgUrl}, #{status} )
+    </insert>
+    <insert id="addToList">
+        insert into book_list (user_id, book_id, status)
+        values (#{userId}, #{bookId}, true);
+    </insert>
+    <update id="updateInfo">
+        update book set name=#{name}, author=#{author}, introduction=#{introduction}, type=#{type},create_date=#{createDate}, update_time =#{updateTime}, img_url=#{imgUrl}, status = #{status} where id = #{id}
+    </update>
+    <update id="endBook">
+        update book set end = true where id = #{id}
+    </update>
+    <update id="setTotalRate">
+        update book set rate = #{rate} where id = #{bookId}
+    </update>
+    <delete id="deleteBook">
+        delete from book where id = #{id}
+    </delete>
+    <delete id="delFromShelf">
+        delete from book_list where user_id = #{userId} and book_id = #{bookId}
+    </delete>
+    <select id="listBook" resultType="com.pacg.spring_endback.entity.Book">
+        select * from book
+    </select>
+<!--    用户动态查询分页查询-->
+    <select id="page" resultType="com.pacg.spring_endback.entity.Book">
+        select * from book
+        <where>
+            <if test="name != null and name != ''">
+                name like concat("%", #{name}, "%")
+            </if>
+            <if test="type != null and type != ''">
+                 and type like concat("%", #{type}, "%")
+            </if>
+            <if test="author != null and author != ''">
+                and author like concat("%", #{author}, "%")
+            </if>
+
+        </where>
+    </select>
+    <select id="getBook" resultType="com.pacg.spring_endback.entity.Book">
+        select name, author, introduction, type, create_date, update_time, img_url, status from book where id = #{id}
+    </select>
+
+<!--    搜索书籍-->
+    <select id="search" resultType="com.pacg.spring_endback.entity.Book">
+        select * from book
+        <where>
+            <if test="name != null and name != ''">
+                name like concat("%", #{name}, "%")
+            </if>
+            <if test="type != null and type != ''">
+                or type like concat("%", #{type}, "%")
+            </if>
+            <if test="author != null and author != ''">
+                or author like concat("%", #{author}, "%")
+            </if>
+        </where>
+    </select>
+    <select id="getBookshelf" resultType="com.pacg.spring_endback.entity.Book">
+        select book.*
+        from book_list join book on book_list.book_id = book.id where user_id = #{id}
+    </select>
+    <select id="isExitsInShelf" resultType="java.lang.Boolean">
+        SELECT COUNT(*) > 0 FROM book_list WHERE user_id = #{userId} AND book_id = #{bookId}
+    </select>
+    <select id="getBookByAuthorAndName" resultType="com.pacg.spring_endback.entity.Book">
+        select *
+        from book where author = #{author} and name = #{name};
+    </select>
+    <select id="pageByRate" resultType="com.pacg.spring_endback.entity.Book">
+        select * from book
+        <where>
+            <if test="name != null and name != ''">
+                name like concat("%", #{name}, "%")
+            </if>
+            <if test="type != null and type != ''">
+                and type like concat("%", #{type}, "%")
+            </if>
+            <if test="author != null and author != ''">
+                and author like concat("%", #{author}, "%")
+            </if>
+        </where>
+        order by rate desc
+    </select>
+    <select id="getBookPubShelf" resultType="com.pacg.spring_endback.entity.Book">
+        select book.*
+        from book_list join book on book_list.book_id = book.id where user_id = #{id}
+    </select>
+
+</mapper>

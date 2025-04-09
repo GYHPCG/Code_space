@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pacg.spring_endback.mapper.LoginMapper">
+    <select id="getUserByName" resultType="com.pacg.spring_endback.result.DTO.LoginDTO">
+        SELECT id, name, role, status, avatar FROM user WHERE name = #{name} AND passwd = #{passwd}
+        UNION
+        SELECT id, name, role, status, avatar AS extraColumn FROM admin WHERE name = #{name} AND passwd = #{passwd}
+        UNION
+        SELECT id, pen_name AS name, role, status, avatar FROM author WHERE pen_name = #{name} AND passwd = #{passwd};
+    </select>
+    <select id="getByName" resultType="com.pacg.spring_endback.result.DTO.LoginDTO">
+        SELECT id, name, role, status, avatar FROM user WHERE name = #{name}
+        UNION
+        SELECT id, name, role, status, avatar AS extraColumn FROM admin WHERE name = #{name}
+        UNION
+        SELECT id, pen_name AS name, role, status, avatar FROM author WHERE pen_name = #{name}
+    </select>
+</mapper>

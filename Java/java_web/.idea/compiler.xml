@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-mybatis-crud" />
+        <module name="springboot_mybitis" />
+        <module name="ES" />
+        <module name="springboot_web_quickstart" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="15">
+      <module name="es" target="15" />
+      <module name="ES" target="15" />
+      <module name="maven_project01" target="15" />
+      <module name="springboot-mybatis-crud" target="11" />
+      <module name="springboot_mybitis" target="11" />
+      <module name="springboot_web_quickstart" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-mybatis-crud" options="-parameters" />
+      <module name="springboot_mybitis" options="-parameters" />
+      <module name="springboot_web_quickstart" options="-parameters" />
+    </option>
+  </component>
+</project>

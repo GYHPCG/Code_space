@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pacg.spring_endback.mapper.AuthorManagerBookMapper">
+    <select id="getBookByAuthor" resultType="com.pacg.spring_endback.entity.Book">
+        select book.*
+        from author join book on author.pen_name = book.author where author.pen_name = #{authorName};
+    </select>
+</mapper>

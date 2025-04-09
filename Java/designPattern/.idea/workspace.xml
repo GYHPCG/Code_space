@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63ee36c1-ad5d-47f0-a3e6-a92435f871e0" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/supermarket/src/main/java/pcg/DAL/ProductDAO.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/supermarket/src/main/java/pcg/BLL/SaleItem.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/supermarket/src/main/java/pcg/BLL/Product.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/supermarket/src/main/java/pcg/BLL/PosSystem.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/supermarket/src/main/java/pcg/UI/frame.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/supermarket/src/main/java/pcg/UI/test.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/supermarket/src/main/java/pcg/BLL/Sale.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/supermarket/src/main/java/pcg/BLL/AddSaleItemResult.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="4y9dj0ub" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../codeSoft/java/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\codeSoft\java\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="15" />
+  </component>
+  <component name="ProjectId" id="2V7UZAWfE22ZQkioZOCNKKktI3j" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Desktop/超市收银" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code_space\Java\designPattern" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (3)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="composite2.Main" />
+      <module name="oj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="composite2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="responsible.Main" />
+      <module name="oj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="responsible.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="state2.Main" />
+      <module name="oj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="state2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstractFactory.Main" />
+      <module name="oj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="abstractFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Composite1.Main" />
+      <module name="oj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Composite1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="designPattern" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="designPattern" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (5)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63ee36c1-ad5d-47f0-a3e6-a92435f871e0" name="Changes" comment="" />
+      <created>1694186666537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694186666537</updated>
+      <workItem from="1694186671319" duration="101000" />
+      <workItem from="1694186796705" duration="5000" />
+      <workItem from="1694186813232" duration="294000" />
+      <workItem from="1694234828515" duration="3493000" />
+      <workItem from="1694320074153" duration="11000" />
+      <workItem from="1694681079748" duration="186000" />
+      <workItem from="1694684554088" duration="79000" />
+      <workItem from="1694949087627" duration="615000" />
+      <workItem from="1695108303456" duration="8000" />
+      <workItem from="1695709776227" duration="16000" />
+      <workItem from="1695709955796" duration="6000" />
+      <workItem from="1695886767802" duration="596000" />
+      <workItem from="1695887485156" duration="324000" />
+      <workItem from="1695887846791" duration="14000" />
+      <workItem from="1695899608503" duration="1143000" />
+      <workItem from="1695900905447" duration="126000" />
+      <workItem from="1695901057077" duration="101000" />
+      <workItem from="1695901752385" duration="4398000" />
+      <workItem from="1695906313912" duration="667000" />
+      <workItem from="1695907372982" duration="128000" />
+      <workItem from="1695907565268" duration="1006000" />
+      <workItem from="1695908837185" duration="5652000" />
+      <workItem from="1695914838055" duration="280000" />
+      <workItem from="1695979359870" duration="7000" />
+      <workItem from="1695999507416" duration="1572000" />
+      <workItem from="1696001454041" duration="3153000" />
+      <workItem from="1696668507130" duration="162000" />
+      <workItem from="1696763660068" duration="6084000" />
+      <workItem from="1696903888087" duration="33000" />
+      <workItem from="1696950224192" duration="677000" />
+      <workItem from="1696951269154" duration="1030000" />
+      <workItem from="1697032997476" duration="51000" />
+      <workItem from="1697116019565" duration="1653000" />
+      <workItem from="1697348068755" duration="7000" />
+      <workItem from="1697968857357" duration="306000" />
+      <workItem from="1697974341680" duration="7000" />
+      <workItem from="1698566347322" duration="1172000" />
+      <workItem from="1698733925490" duration="14000" />
+      <workItem from="1698973782131" duration="2457000" />
+      <workItem from="1698977000246" duration="4065000" />
+      <workItem from="1699004034996" duration="10000" />
+      <workItem from="1699576092982" duration="3413000" />
+      <workItem from="1699691953045" duration="6000" />
+      <workItem from="1700180088987" duration="6639000" />
+      <workItem from="1700214227317" duration="7000" />
+      <workItem from="1700747107885" duration="283000" />
+      <workItem from="1700784776300" duration="3381000" />
+      <workItem from="1700789914696" duration="204000" />
+      <workItem from="1700807558767" duration="20000" />
+      <workItem from="1700807901009" duration="7000" />
+      <workItem from="1702823759774" duration="5171000" />
+      <workItem from="1702887368117" duration="6426000" />
+      <workItem from="1703000355710" duration="7000" />
+      <workItem from="1703049629999" duration="78000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
