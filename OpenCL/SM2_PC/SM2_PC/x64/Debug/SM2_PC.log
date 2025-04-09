@@ -1,6 +1,0 @@
-﻿  main.c
-D:\Code_space\OpenCL\SM2_PC\SM2_PC\main.c(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-D:\Code_space\OpenCL\SM2_PC\SM2_PC\main.c(84,43): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
-D:\Code_space\OpenCL\SM2_PC\SM2_PC\main.c(85,41): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
-D:\Code_space\OpenCL\SM2_PC\SM2_PC\main.c(43,30): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-  SM2_PC.vcxproj -> D:\Code_space\OpenCL\SM2_PC\x64\Debug\SM2_PC.exe

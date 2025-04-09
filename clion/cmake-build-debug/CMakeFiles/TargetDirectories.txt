@@ -1,5 +1,0 @@
-D:/Code_space/clion/cmake-build-debug/CMakeFiles/demo.dir
-D:/Code_space/clion/cmake-build-debug/CMakeFiles/hello.dir
-D:/Code_space/clion/cmake-build-debug/CMakeFiles/helloWorld.dir
-D:/Code_space/clion/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Code_space/clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-D:/Code_space/c/CSapp/cmake-build-debug/CMakeFiles/CSapp.dir
-D:/Code_space/c/CSapp/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Code_space/c/CSapp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

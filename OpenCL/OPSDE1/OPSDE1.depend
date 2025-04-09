@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1671342790 source:d:\code_space\opencl\opsde1\main.cpp
-	<iostream>
-	<fstream>
-	<vector>
-	<string>
-	<ctime>
-	<CL/cl.h>
-

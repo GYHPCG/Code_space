@@ -1,9 +1,0 @@
-﻿  Test3.cpp
-D:\Code_space\OpenCL\Test3\Test3\Test3.cpp(350,19): warning C4018: “<”: 有符号/无符号不匹配
-D:\Code_space\OpenCL\Test3\Test3\Test3.cpp(355,19): warning C4018: “<”: 有符号/无符号不匹配
-D:\Code_space\OpenCL\Test3\Test3\Test3.cpp(438,19): warning C4018: “<”: 有符号/无符号不匹配
-D:\Code_space\OpenCL\Test3\Test3\Test3.cpp(338,23): warning C4101: “kernel2”: 未引用的局部变量
-D:\Code_space\OpenCL\Test3\Test3\Test3.cpp(360,24): warning C4101: “localSize”: 未引用的局部变量
-D:\Code_space\OpenCL\Test3\Test3\Test3.cpp(322,11): warning C4101: “h_b”: 未引用的局部变量
-D:\Code_space\OpenCL\Test3\Test3\Test3.cpp(331,17): warning C4101: “d_e”: 未引用的局部变量
-  Test3.vcxproj -> D:\Code_space\OpenCL\Vector_add\x64\Debug\Test3.exe

@@ -1,7 +1,0 @@
-﻿  main.c
-D:\Code_space\OpenCL\vs_bcrypt\vs_bcrypt\main.c(60,5): warning C4013: “BF_decode”未定义；假设外部返回 int
-D:\Code_space\OpenCL\vs_bcrypt\vs_bcrypt\main.c(61,5): warning C4013: “BF_swap”未定义；假设外部返回 int
-D:\Code_space\OpenCL\vs_bcrypt\vs_bcrypt\main.c(78,17): warning C4013: “strlen”未定义；假设外部返回 int
-D:\Code_space\OpenCL\vs_bcrypt\vs_bcrypt\main.c(162,5): warning C4013: “memcpy”未定义；假设外部返回 int
-D:\Code_space\OpenCL\vs_bcrypt\vs_bcrypt\main.c(164,5): warning C4013: “BF_encode”未定义；假设外部返回 int
-  vs_bcrypt.vcxproj -> D:\Code_space\OpenCL\vs_bcrypt\x64\Debug\vs_bcrypt.exe
