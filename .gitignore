@@ -1,0 +1,39 @@
+/.vscode
+/helloworld.cpp
+/helloworld.exe
+/localImage
+/AI
+/.vs
+*.exe
+*.o
+*.pdf
+# 忽略 IntelliJ IDEA 和 VSCode 配置文件
+/.idea/
+/.vscode/
+
+# 忽略 Maven 和 Gradle 构建生成的文件
+/target/
+/build/
+
+# 忽略日志文件
+*.log
+
+# 忽略临时文件
+*.tmp
+*.bak
+*.swp
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略 JAR/WAR 文件
+*.jar
+*.war
+
+# 忽略环境变量文件
+.env
+
+# 忽略其他二进制文件
+*.exe
+*.class

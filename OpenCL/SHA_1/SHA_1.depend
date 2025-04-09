@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1671211851 source:d:\code_space\opencl\sha_1\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<string.h>
+	<OpenCL/opencl.h>
+	<CL/cl.h>
+	"sha1.h"
+
+1671211456 d:\code_space\opencl\sha_1\sha1.h
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<string.h>
+	<OpenCL/opencl.h>
+	<CL/cl.h>
+
+1671211420 source:d:\code_space\opencl\sha_1\sha1.c
+	"sha1.h"
+

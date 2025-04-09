@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1668834317 source:d:\code_space\opencl\te1\main.cpp
+	<iostream>
+	<CL/cl.h>
+
+1438729314 d:\study\opencl\ocl_sdk_light\include\cl\cl.h
+	<OpenCL/cl_platform.h>
+	<CL/cl_platform.h>
+
+1438729320 d:\study\opencl\ocl_sdk_light\include\cl\cl_platform.h
+	<AvailabilityMacros.h>
+	<stdint.h>
+	<stddef.h>
+	<altivec.h>
+	<intrin.h>
+	<xmmintrin.h>
+	<intrin.h>
+	<emmintrin.h>
+	<mmintrin.h>
+	<intrin.h>
+	<immintrin.h>
+

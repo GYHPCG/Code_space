@@ -1,0 +1,4 @@
+/home/Gyh/Desktop/Deepin_code_spacek/cmake-build-debug/CMakeFiles/Deepin_code_space.dir
+/home/Gyh/Desktop/Deepin_code_spacek/cmake-build-debug/CMakeFiles/hello.dir
+/home/Gyh/Desktop/Deepin_code_spacek/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/Gyh/Desktop/Deepin_code_spacek/cmake-build-debug/CMakeFiles/rebuild_cache.dir

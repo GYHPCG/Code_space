@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1671790171 source:d:\code_space\opencl\bcrypt\bcrypt.c
+	<errno.h>
+	<string.h>
+	<stdint.h>
+	<stdlib.h>
+	"bcrypt.h"
+	<stdio.h>
+	<windows.h>
+	<Wincrypt.h>
+	<time.h>
+
+1671697399 d:\code_space\opencl\bcrypt\bcrypt.h
+
+1671790180 source:d:\code_space\opencl\bcrypt\main.c
+	<stdio.h>
+	<stdlib.h>
+	<OpenCL/opencl.h>
+	<CL/cl.h>
+	"bcrypt.h"
+

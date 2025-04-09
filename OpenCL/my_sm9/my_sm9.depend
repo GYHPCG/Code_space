@@ -1,0 +1,100 @@
+# depslib dependency file v1.0
+1671973959 source:d:\code_space\opencl\my_sm9\bigint.c
+	"BigInt.h"
+
+1671974350 d:\code_space\opencl\my_sm9\bigint.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+
+1671974305 source:d:\code_space\opencl\my_sm9\bnfield12.c
+	"BNField12.h"
+
+1671974396 d:\code_space\opencl\my_sm9\bnfield12.h
+	"BNField4.h"
+
+1671974520 d:\code_space\opencl\my_sm9\bnfield4.h
+	"BNField2.h"
+
+1671974476 d:\code_space\opencl\my_sm9\bnfield2.h
+	"Params.h"
+
+1671990290 d:\code_space\opencl\my_sm9\params.h
+	"BigInt.h"
+
+1671974091 source:d:\code_space\opencl\my_sm9\bnfield2.c
+	"BNField2.h"
+
+1671974144 source:d:\code_space\opencl\my_sm9\bnfield4.c
+	"BNField4.h"
+	<stdio.h>
+
+1671974592 source:d:\code_space\opencl\my_sm9\bnpairing.c
+	"BNPairing.h"
+
+1671974629 d:\code_space\opencl\my_sm9\bnpairing.h
+	"BNPoint2.h"
+
+1671974848 d:\code_space\opencl\my_sm9\bnpoint2.h
+	<stdio.h>
+	"BNPoint.h"
+
+1671974767 d:\code_space\opencl\my_sm9\bnpoint.h
+	<stdio.h>
+	"BNField12.h"
+
+1671974723 source:d:\code_space\opencl\my_sm9\bnpoint.c
+	"BNPoint.h"
+
+1671974811 source:d:\code_space\opencl\my_sm9\bnpoint2.c
+	"BNPoint2.h"
+
+1671974892 source:d:\code_space\opencl\my_sm9\params.c
+	"Params.h"
+
+1672151988 source:d:\code_space\opencl\my_sm9\sm3.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"SM3.h"
+
+1671975109 d:\code_space\opencl\my_sm9\sm3.h
+
+1672154351 source:d:\code_space\opencl\my_sm9\sm4.c
+	"SM4.h"
+	<string.h>
+	<stdio.h>
+
+1671975234 d:\code_space\opencl\my_sm9\sm4.h
+
+1671982422 source:d:\code_space\opencl\my_sm9\sm9dsa.c
+	"SM9DSA.h"
+
+1671975314 d:\code_space\opencl\my_sm9\sm9dsa.h
+	"utility.h"
+	<time.h>
+
+1671975503 d:\code_space\opencl\my_sm9\utility.h
+	"SM3.h"
+	"BNPairing.h"
+
+1671983307 source:d:\code_space\opencl\my_sm9\sm9ka.c
+	"SM9KA.h"
+
+1671975376 d:\code_space\opencl\my_sm9\sm9ka.h
+	"SM9DSA.h"
+
+1672154379 source:d:\code_space\opencl\my_sm9\sm9pkc.c
+	"SM9PKC.h"
+
+1671975442 d:\code_space\opencl\my_sm9\sm9pkc.h
+	"SM9KA.h"
+	"SM4.h"
+
+1672153841 source:d:\code_space\opencl\my_sm9\utility.c
+	"utility.h"
+
+1671990468 source:d:\code_space\opencl\my_sm9\main.c
+	"SM9PKC.h"
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f00;
+            /* background-image: url(../wangzerongyao.png); */
+        }
+        .color {
+            /* 图片平铺 */
+            /* background: repeat-x; */
+            background: no-repeat;
+            text-align: center;
+            width: 700px;
+            height: 7000px;
+            margin: 0 auto;
+            background-color: yellow;
+            background-image: url(../homework/imgs/pic.jpg);
+            /* 图片太大，要使它放在很小的框子里，要用contain，反之要用cover，但是通常用百分比 */
+            /* background-size: contain; */
+            /* background-size: 100% 100%; */
+            /* 图片位置，第一个水平距离，第二个上下距离 */
+            background-position: center top;
+            /* 图片固定， */
+            background-attachment: fixed;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="color">
+        color
+    </div>
+</body>
+</html>

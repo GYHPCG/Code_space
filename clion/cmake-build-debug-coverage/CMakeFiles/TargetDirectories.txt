@@ -1,0 +1,5 @@
+D:/Code_space/clion/cmake-build-debug-coverage/CMakeFiles/demo.dir
+D:/Code_space/clion/cmake-build-debug-coverage/CMakeFiles/hello.dir
+D:/Code_space/clion/cmake-build-debug-coverage/CMakeFiles/helloWorld.dir
+D:/Code_space/clion/cmake-build-debug-coverage/CMakeFiles/edit_cache.dir
+D:/Code_space/clion/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir

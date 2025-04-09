@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "array": "cpp",
+        "*.tcc": "cpp",
+        "vector": "cpp",
+        "functional": "cpp",
+        "random": "cpp",
+        "memory_resource": "cpp",
+        "regex": "cpp",
+        "new": "cpp",
+        "chrono": "cpp",
+        "variant": "cpp",
+        "string": "cpp",
+        "ostream": "cpp"
+    },
+    "cmake.sourceDirectory": "${workspaceFolder}/CodeWars"
+}

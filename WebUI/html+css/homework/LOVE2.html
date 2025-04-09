@@ -1,0 +1,32 @@
+<!--
+ * @Descripttion: MyCode
+ * @Author: CGPan
+ * @Date: 2022-12-07 07:35:50
+ * @LastEditors: CGPan
+ * @LastEditTime: 2022-12-07 07:35:54
+-->
+<!-- 使用 HTML 的 div 元素定义一个容器 -->
+<div class="heart">
+    <!-- 使用 CSS 的伪元素定义爱心的两个半圆形 -->
+    <style>
+        .heart:before, .heart:after {
+            content: "";
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background: #e01b1b;
+            border-radius: 60px 60px 0 0;
+            top: 0;
+            left: 50%;
+            margin-left: -30px;
+            transform: rotate(45deg);
+            transform-origin: 0 100%;
+        }
+
+        .heart:after {
+            left: calc(50% - 30px);
+            transform: rotate(-45deg);
+            transform-origin: 100% 100%;
+        }
+    </style>
+</div>
